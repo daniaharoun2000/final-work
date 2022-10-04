@@ -1,18 +1,27 @@
-
-import Container from "../../../components/Container";
+//AddButton by Dania Haroun !!!
+// AddButton will be used in Top Save Today & Food Cupboard sections
+import Container from "../../../components/Container";//my Container
 import {Row,Col,Button} from "react-bootstrap";
-
 import "./AddButton.scss";
+
+////start of AddButton function///
+
 function AddButton() {
   return (
     <div>
       <Container>
+        {/* here we have a row with 2 columns(the columns are in a Button )  */}
         <Row>
-        
             <Button className="bg-cat buttonclass mt-2">
-          <Col xl={6} xs={6}><div className="justify-content-end d-flex"> Add</div></Col>   
+              {/* the first col has an "ADD" text */}
+          <Col xl={6} xs={6}>
+            <div className="justify-content-end d-flex"> Add</div>
+            </Col>   
+                          {/* the 2nd col has a div that contain (+) icon  */}
+
          <Col xl={6} xs={6}>
-           <div className="d-flex justify-content-end align-items-end "> <svg
+           <div className="d-flex justify-content-end align-items-end ">
+             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -32,4 +41,6 @@ function AddButton() {
     </div>
   );
 }
-export default AddButton;
+export default AddButton;//export AddButton function to use it when It needed (in Top Save Today & Food Cupboard sections)
+////End of AddButton function///
+
