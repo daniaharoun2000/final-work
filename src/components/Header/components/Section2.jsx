@@ -6,7 +6,7 @@ import { Row, Col, InputGroup, Form, Button } from "react-bootstrap";
 import React, { useState } from "react"; //useState to make the header -> fixed header
 import LocationBar from "./LocationBar"; // LocationBar component
 import SearchBar from "./SearchBar";// SearchBar component
-import OffcanvasNavbar from "./OffcanvasNavbar"; //this is offcanvas navbar component that will appeare when the page size reduce
+import OffcanvasNavbar from "./OffcanvasNavbar"; //this is offcanvas navbar component that will appear when the page size reduce
 import Container from "../../Container";  //my container
 
 //// start of Section2 function(Sticky Header) ///
@@ -46,7 +46,7 @@ function Section2() {
             <Col xl={2} md={4} xs={12}>
               <Row className="align-items-center justify-content-between gx-2 ">
                 {/* row that has 4 columns */}
-                {/* the first column is OffcanvasNavbar that will not appeare in xl & xxl  */}
+                {/* the first column is OffcanvasNavbar that will not appear in xl & xxl  */}
                 <Col md={2} xs={2} className="d-xl-none">
                   <OffcanvasNavbar />
                 </Col>
@@ -63,7 +63,7 @@ function Section2() {
                 <Col md={3} xs={2} className="d-xl-none d-md-block d-none ">
                   <LocationBar />
                 </Col>
-     {/* the 4th column -> user icon  that will appeare in mobile display sizes  */}
+     {/* the 4th column -> user icon  that will appear in mobile display sizes  */}
 
                 <Col xs={2} className="d-md-none">
                   <div className="d-flex justify-content-end">
@@ -131,7 +131,7 @@ function Section2() {
               <Row>
                 {/* list and in each li element we have an icon and in each column we have an li elemnt that has an icon */}
                 <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
-                  {/* this column has a li element that has a search icon that appeare in specific display size , here I put it in another component (SearchBar) and called it here */}
+                  {/* this column has a li element that has a search icon that appear in specific display size , here I put it in another component (SearchBar) and called it here */}
                   <Col xxl={1}xl={1}>
                     <li className="m-0 d-xl-none d-block">
                       <SearchBar/> 

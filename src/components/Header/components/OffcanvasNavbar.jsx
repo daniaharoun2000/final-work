@@ -15,7 +15,7 @@ function OffcanvasNavbar() {
 
   return (
     <>
-            {/* when you click on lines img(icon) , the Offcanvas nav will appeare */}
+            {/* when you click on lines img(icon) , the Offcanvas nav will appear */}
 
       <Button variant="badge" onClick={handleShow} className=" d-xl-none d-inline">
         <img src={lines}  alt="logo"

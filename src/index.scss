@@ -1,4 +1,6 @@
+//here is a scss for all project
 
+//these is my colors:
 $theme-colors: (
   "primary": #0da487,
   "dania": #0f0e0e,
@@ -11,16 +13,15 @@ $theme-colors: (
   "gg": #e6edf9,
   "pink": #ffe1e1,
 );
-@import "~bootstrap/scss/bootstrap";
 
+@import "~bootstrap/scss/bootstrap";
+//root foe index.js
 #root {
   max-width: 100%;
   width: 100vw;
   overflow-x: hidden;
   min-width: 320px;
  height:  auto;
-
-
 }
 
 .text-overflow {

@@ -3,19 +3,25 @@
 import { NavLink } from "react-router-dom";
 import {Row,Col,Navbar,NavDropdown,Dropdown,Button,Modal} from "react-bootstrap";
 import React, { useState } from "react";
-import Container from "../../Container";
+import Container from "../../Container"; //my container
 
 //// start of Section3 function(NavBar) ///
 
 function Section3() {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+        //I use these hooks to control the deal today modal (show & close)
+
+  const [show, setShow] = useState(false);//  show = false at the begining and it will change when I click in the deal today button
+  const handleClose = () => setShow(false);//to close modal
+  const handleShow = () => setShow(true);//to show modal
   return (
     <div className="bg-white">
+      {/* this section will appear on lg &xl &xxl only */}
       <div className="d-none d-lg-block ">
         <Container>
+         
           <Row className="align-items-center justify-content-between  pt-3 ">
+             {/* This section is divided into three columns */}
+        {/* the first column contains a Dropdown(All Categories dropdown) from bootstrap that has a Dropdown Menue that has 3 Dropdown items   */}
             <Col xl={2} md={3}><div className="d-flex justify-content-start">
               <Dropdown>
                 <Dropdown.Toggle
@@ -24,7 +30,9 @@ function Section3() {
                   className="AllCategories align-items-center justify-content-center d-flex "
                 >
                       <div className="d-flex justify-content-center align-items-center p-1">
+                        {/* this div for lines icon */}
                     <div className="px-1">
+              
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -41,10 +49,13 @@ function Section3() {
                     <line x1="21" y1="6" x2="3" y2="6"></line>
                     <line x1="21" y1="14" x2="3" y2="14"></line>
                     <line x1="17" y1="18" x2="3" y2="18"></line>
-                  </svg></div> <div className="px-1">
+                  </svg>
+                  </div> 
+                  <div className="px-1">
+                    {/* the name of dropdown is ->  All Categories*/}
                   <span className="align-items-center justify-content-center d-flex ml-2">
                   
-                    All Categories
+                    All Categories 
                   </span></div></div>
                 </Dropdown.Toggle>
 
@@ -78,19 +89,27 @@ function Section3() {
                                   </Dropdown.Menu>
               </Dropdown></div>
             </Col>
+                    {/* the 2nd  column is a NavBar */}
+
             <Col xl={8} md={7} className="d-none d-xl-block ">
+              {/* Start of NavBar */}
               <Navbar >
                 <Navbar.Toggle  />
                 <Navbar.Collapse
                   id="responsive-navbar-nav"
                   className="  gap-3 align-items-center  justify-content-center navsection3"
                 >
+                  {/* the navbar column has a row that has 5 columns */}
                   <Row className="align-items-center justify-content-between ">
+                    {/* the first column has a NavDropdown  */}
                     <Col xl={2}>
                       <NavDropdown id="nav-dropdown-dark-example" title="Home" >
+                        {/* inside a navdropdown from bootstrap , we have a row -> column->ul ->li items */}
                         <Row>
+                          <Col xl={12}>
                           <div>
                             <ul className="unstyled">
+                              {/* 5 li elemnts */}
                               <li>
                                 <a href="/" className="dropdownitem">
                                   <img
@@ -153,21 +172,24 @@ function Section3() {
                               </li>
                             </ul>
                           </div>
+                          </Col>
                         </Row>
                       </NavDropdown>
                     </Col>
+    {/* the 2nd column has a NavDropdown  */}
+
                     <Col xl={3}>
-                    
+     {/* inside a navdropdown from bootstrap , we have a row -> column->row->ul ->col->li items and inside each li we have a column*/}
                     <NavDropdown
                       id="nav-dropdown-dark-example"
                       title="Mega Menue"
                      
                     >
                      <div className="megabg dropdownsizee">
-                        <Row>
+                        <Row><Col xl={12}> <Row>
                           <div>
-                            <ul className="unstyled" >
-                              <Col xl={3}>
+                            <ul className="unstyled" ><li>
+                             <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
                                     Daily Vegetables
@@ -222,7 +244,7 @@ function Section3() {
                                   </a>
                                 </div>
                               </Col>
-
+                              </li><li>
                               <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
@@ -277,8 +299,8 @@ function Section3() {
                                     Peas &amp; Corn
                                   </a>
                                 </div>
-                              </Col>
-                              <Col xl={3}>
+                              </Col></li>
+                              <li>  <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
                                     Exotic Vegetables
@@ -318,16 +340,17 @@ function Section3() {
                                     Chilies &amp; Lime
                                   </a>
                                 </div>
-                              </Col>
-<Col xl={3}></Col>
+                              </Col></li>
+                              {/* here is an empty column to put an background img on it (in Header.scss) */}
+<li><Col xl={3}></Col></li>
 
-                              {/* <div className="dropdown-column dropdown-column-img col-3"></div> */}
                             </ul>
-                          </div>
+                          </div></Row></Col>
                         </Row></div>
                    
                     </NavDropdown>
                   </Col>
+                   {/* the 3rd column has a NavDropdown  */}
                     <Col xl={2}>
                       <NavDropdown id="nav-dropdown-dark-example" title="Shop">
                         <NavDropdown.Item
@@ -358,7 +381,7 @@ function Section3() {
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Col>
-                
+                 {/* the 4th column has a NavDropdown  */}
                     <Col xl={2}>
                       <NavDropdown
                         id="nav-dropdown-dark-example"
@@ -392,10 +415,11 @@ function Section3() {
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Col>
-                  
+                   {/* the 5th column has a row & 3columns  */}
                     <Col>
                       <Row className="align-items-center justify-content-between ">
-                        <Col xl={3}>
+                        {/* column that has a NavDropdown */}
+                        <Col xl={4}>
                           <NavDropdown
                             id="nav-dropdown-dark-example"
                             title="Blog"
@@ -416,7 +440,9 @@ function Section3() {
                             </NavDropdown.Item>
                           </NavDropdown>
                         </Col>
-                        <Col xl={3}>
+                                                {/* column that has a NavDropdown */}
+
+                        <Col xl={4}>
                           <NavDropdown
                             id="nav-dropdown-dark-example"
                             title="Pages"
@@ -467,6 +493,7 @@ function Section3() {
                             </NavDropdown.Item>
                           </NavDropdown>
                         </Col>
+                        {/* this column has a button from bootstrap (Contact) */} 
                         <Col xl={3}>
                           <Button className="contactbuttonsection3">
                             Contact
@@ -477,14 +504,18 @@ function Section3() {
                   </Row>
                 </Navbar.Collapse>
               </Navbar>
+               {/* End of NavBar */}
             </Col>
-            <Col xl={2} md={2}>
+        {/* the 3rd column contains a Deal Today Button (when you click on it , a Deal Today modal will appear) from bootstrap  */}
+        <Col xl={2} md={2}>
               <div className=" d-flex justify-content-end">
+                {/* Button  */}
                 <Button
                   onClick={handleShow}
                   className=" m-0 p-0 DealTodaybutton text-center px-1  "
                 >
                   <div className="d-flex justify-content-center align-items-center p-2">
+                    {/* Deal Today icon */}
                     <div className="px-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -509,8 +540,9 @@ function Section3() {
                   </div>
                 </Button>
               </div>
-
+{/* Start of Deal Today Modal */}
               <Modal show={show} onHide={handleClose} className="modalstyle">
+                {/* Modal Header */}
                 <Modal.Header closeButton>
                   <Modal.Title>
                     Deal Today
@@ -520,6 +552,7 @@ function Section3() {
                     </span>
                   </Modal.Title>
                 </Modal.Header>
+                {/* Modal Body that has a list with 2 items (2 li elemnts) */}
                 <Modal.Body className="modalbody">
                   <div>
                     <ul className="  list-unstyled ">
@@ -565,6 +598,8 @@ function Section3() {
                   </div>
                 </Modal.Body>
               </Modal>
+              {/* End of Deal Today Modal */}
+
             </Col>
           </Row>
         </Container>

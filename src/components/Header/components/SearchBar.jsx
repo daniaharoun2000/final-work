@@ -15,7 +15,7 @@ function SearchBar() {
 
   return (
     <div >
-        {/* when you click on search svg(icon) , the modal will appeare */}
+        {/* when you click on search svg(icon) , the modal will appear */}
       <Button onClick={handleShow}  variant="badge" className="p-0 m-0">
         {/* search svg (icon): */}
         <span className=" pg-gg ">
