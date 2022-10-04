@@ -1,4 +1,5 @@
 #main-home {
+  // here is multi font size for multi screen sizes
   @media (min-width: 1000px) {
   .homecontain {
     font-size: 46px;
@@ -23,6 +24,8 @@
       text-transform: uppercase !important;
     }
     }
+
+
   .imgonesectionone {
     height: 689px;
     background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/1.jpg);
@@ -35,6 +38,8 @@
     border-bottom-left-radius: 5px;
     overflow: hidden;
   }
+    // here is multi width & height for multi screen sizes
+
   @media (max-width: 1000px) {
     .gfg {
       -webkit-box-flex: 0;
@@ -62,8 +67,6 @@
       height: 355px;
     }
   }
- 
-
   @media (max-width: 767px) {
     .gfg {
       -webkit-box-flex: 0;
@@ -136,6 +139,8 @@
       height: 210px;
     }
   }
+
+
   .imgtwosectionone {
     width: 511.66px;
     height: 332.56px;

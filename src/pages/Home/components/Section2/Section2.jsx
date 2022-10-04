@@ -1,13 +1,15 @@
 //Section 2 from Home Page by Dania Haroun !!!
-
+//this section has 4 images with texts
 import { Col, Row } from "react-bootstrap";
-import Container from "../../../../components/Container";
+import Container from "../../../../components/Container";//my Container
+////start of Section2 function///
+
 function Section2() {
   return (
     <div >
       <Container>
-   
           <div className="py-4">
+             {/* here we have row with 4 columns m each col has an img with text */}
             <Row className="g-sm-4 g-3">
               <Col xxl={3} lg={4} sm={6} className="firstcol">
                 <div className="banner-contain  divsection2 ">
@@ -106,4 +108,6 @@ function Section2() {
     </div>
   );
 }
-export default Section2;
+export default Section2;//export Section2 function to use it when It needed 
+////End of Section2 function///
+

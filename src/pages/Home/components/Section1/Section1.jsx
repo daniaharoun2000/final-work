@@ -1,13 +1,17 @@
 //Section 1 from Home Page by Dania Haroun !!!
-
+//this section has 3 images with texts
 import { Col, Row } from "react-bootstrap";
-import Container from "../../../../components/Container";
+import Container from "../../../../components/Container";//my Container
+
+////start of Section1 function///
 function Section1() {
   return (
     <div className=" align-items-center   ">
       <Container>
         <div className="pt-1">
+                    {/* here we have row with 2 columns */}
         <Row>
+          {/* the first col has an img with text */}
           <Col xl={8} md={12} lg={12}>
             <div className=" position-relative   imgonesectionone mt-4 gfg">
               <div className="textforimage2 position-absolute  ">
@@ -34,7 +38,10 @@ function Section1() {
               </div>
             </div>
           </Col>
+                    {/* the 2nd col has 2 imgs with text  */}
+
           <Col xl={4}>
+            {/* in this col there is a row with 2 cols , in each column there is an img with text */}
             <Row>
               <Col xl={12} md={6} lg={6}>
                 <div className=" position-relative mt-4">
@@ -93,4 +100,6 @@ function Section1() {
     </div>
   );
 }
-export default Section1;
+export default Section1;//export Section1 function to use it when It needed 
+////End of Section1 function///
+

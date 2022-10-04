@@ -1,15 +1,20 @@
-//Section 3 Left Part from Home Page by Dania Haroun !!!
-
-import Container from "../../../../components/Container";
+//Left Part of Section 3 from Home Page by Dania Haroun !!!
+// vertical section
+import Container from "../../../../components/Container";//my Container
 import { Col, Row } from "react-bootstrap";
+////start of Section3LeftPart function///
 function Section3LeftPart() {
   return (
     <div >
      <Container>
-        <section className=" gap-4 py-4">
-          <div className=" ">
-          <Row><Col xl={12}>    <div className="category-menu bg-cat">
+          <div className="gap-4 py-4 ">
+            {/* here we have 5 row , one col in each row */}
+            {/* first Row */}
+          <Row>
+            <Col xl={12}> 
+               <div className="category-menu bg-cat">
               <h3>Categories </h3>
+              {/* ul (list) and (li) elements , in each li elements there is an img and text */}
               <ul className="linesection3left">
                 <li>
                   <div className="category-list ">
@@ -182,6 +187,7 @@ function Section3LeftPart() {
                   </div>
                 </li>
               </ul>
+              {/* ul (list) and (li) elements , in each li elements there is a text */}
 
               <ul className="value-list mt-3">
                 <li>
@@ -222,9 +228,12 @@ function Section3LeftPart() {
                 </li>
               </ul>
             </div></Col></Row>
-        
-            <Row><Col xl={12}>   <div className="ratio_156 mt-5">
+                    {/* 2nd Row */}
+
+            <Row>
+              <Col xl={12}>   <div className="ratio_156 mt-5">
               <div className="home-contain  bg-size ">
+                {/* here we have an img as a background , and a text above it */}
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/8.jpg"
                   className="bg-img  lazyload"
@@ -249,8 +258,12 @@ function Section3LeftPart() {
               </div>
             </div></Col></Row>
 
-         
-            <Row><Col xl={12}> <div className=" mt-5">
+                     {/* 3rd Row */}
+
+            <Row>
+              <Col xl={12}> <div className=" mt-5">
+                                {/* here we have an img as a background , and a text above it */}
+
               <div className="home-contain ">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/11.jpg"
@@ -278,11 +291,16 @@ function Section3LeftPart() {
               </div>
             </div></Col></Row>
 
-           
-            <Row><Col xl={12}> <div className="mt-5">
+                       {/* 4th Row */}
+
+            <Row>
+              <Col xl={12}> <div className="mt-5">
+                                {/* here we have ul (list)  and (li) elements */}
+
               <div className="category-menu ">
                 <h3>Treanding Products</h3>
 
+{/* ul with li , each li has an img with text */}
                 <ul className="trendinglist border-0 p-0 d-block ">
                   <li>
                     <div className="offer-product ">
@@ -391,12 +409,17 @@ function Section3LeftPart() {
               </div>
             </div></Col></Row>
 
-           
-<Row><Col xl={12}>   <div className="mt-5">
+                 {/* 5th Row */}
+      
+<Row>
+  <Col xl={12}>   <div className="mt-5">
+    {/* this is a normal col with some text */}
               <div className="category-menu">
+                {/* review-title */}
                 <h3>Customer Comment</h3>
 
                 <div className="review-box">
+                  {/*  review-contain*/}
                   <div className="review-contain">
                     <h5 className="w-75">
                       We Care About Our Customer Experience
@@ -411,7 +434,7 @@ function Section3LeftPart() {
                   <div className="d-flex justify-content-center align-items-center p-2">
                   
                   <div className="review-profile ">  
-       
+       {/* review-image */}
                   <div className="review-image px-1">
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/review/1.jpg"
@@ -429,9 +452,10 @@ function Section3LeftPart() {
             </div></Col></Row>
          
           </div>
-        </section></Container>
+     </Container>
       
     </div>
   );
 }
-export default Section3LeftPart;
+export default Section3LeftPart;//export Section3LeftPart function to use it when It needed 
+////End of Section3LeftPart function///

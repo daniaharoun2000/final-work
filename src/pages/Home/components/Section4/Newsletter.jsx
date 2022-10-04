@@ -1,13 +1,17 @@
-// Section4  on Home Page by Dania Haroun !!!
-
-import { Container } from "../../../../components";
+//Section 4 from Home Page by Dania Haroun !!!
+// Join our newsletter  , this section has an bg images with some texts
+import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
+////start of Newsletter function///
 function Newsletter() {
   return (
     <div >
    <Container>
     <div className="py-4">
-    <Row><Col xl={12}>
+      {/* here is a Row with an one Col */}
+    <Row>
+      {/* this Col has background image with some texts */}
+      <Col xl={12}>
                         <div className=" newsletterbg position-relative d-flex justify-content-center align-items-center" >
                             <div className="     textforimage2 mt-1 align-items-center justify-content-center d-flex">
                                 <div >
@@ -38,4 +42,5 @@ function Newsletter() {
    </div>
   );
 }
-export default  Newsletter;
+export default  Newsletter;//export Newsletter function to use it when It needed 
+////End of Newsletter function///

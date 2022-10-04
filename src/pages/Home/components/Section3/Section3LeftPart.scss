@@ -1,26 +1,16 @@
 #main-home {
-  
-
-
     .category-list img {
         width: 25px;
-        height: 25px;
-     
-        
+        height: 25px;  
     }
     
  
 .category-menu ul li .category-list {
-
     display: flex;
-
     gap: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)));
-
-
 }
 
-.hightsize
-{height: 407px;}
+
     .home-contain .home-detail {
         width: 100%;
         height: 100%;
@@ -38,15 +28,11 @@
         position: relative;
         border-radius: 10px;
     }
-   
-  
-  
     .category-menu {
         background-color: #f8f8f8;
         padding: calc(12px + (33 - 12) * ((100vw - 320px) / (1920 - 320)));
         border-radius: 5px;
     }
-
     .category-menu ul li {
         display: block;
         width: 100%;
@@ -58,7 +44,6 @@
         position: relative;
         display: inline-block;
     }
-  
   
     a {
         color: var(--theme-color);
@@ -76,9 +61,7 @@
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
     }
-    .w-75 {
-        width: 75% !important;
-    }
+   
     .review-box .review-contain p {
         color: #4a5568;
         line-height: 27px;
@@ -98,6 +81,7 @@
         gap: 23px;
         border-bottom: 1px dashed rgba(74,85,104,0.5);
     }
+
     ul {
         padding-left: 0;
         margin-bottom: 0;
@@ -113,7 +97,7 @@
     position: relative;
     display: -webkit-box;
 }
-.cheeza{height:582px;}
+
 .trendinglist li .offer-product {
     width: 100%;
     height: 100%;
@@ -130,7 +114,7 @@
     
 
 }
-
+// this is multi line styling for multi  screen sizes
 @media (max-width:2560px) {
 
     .trendinglist li+li:after {
@@ -166,7 +150,8 @@
         width: 138px;
     }
     
-} @media (max-width: 1399px) {
+}
+ @media (max-width: 1399px) {
 
     .trendinglist li+li:after {
         content: "";
@@ -177,7 +162,8 @@
         width: 196px;
     }
     
-} @media (max-width: 1199px) {
+}
+ @media (max-width: 1199px) {
 
     .trendinglist li+li:after {
         content: "";
