@@ -1,14 +1,20 @@
 ///Section 3 from Footer by Dania Haroun !!!
-
+//Last Section  
 import Container from "../../../../components/Container";
 import {Row,Col} from "react-bootstrap";
 
+//// start of Section 3 from footer ///
 function Section3() {
   return (
     <div className="sub-footer section-small-space">
       <Container>
+         {/* this section is devide into 2 divs , one of them will appear according to display size */}
+            {/* the first div will appear in lg only */}
         <div className="  d-none d-lg-block d-sm-none  py-4">
+                    {/* here is 1 Row , with 3 columns */}
+
         <Row className="align-items-center d-flex justify-content-start">
+          
           <Col xs={4}>
             <div className="reserve">
               <h6 className="text-content">
@@ -94,7 +100,10 @@ function Section3() {
             </div>
           </Col>
         </Row></div>
+                    {/* the 2nd div will appear in md & xl & xxl only */}
+
         <div className="  d-md-block d-lg-none  py-4 align-items-center ">
+          {/* here is 3 Rows , in each row ther is one column */}
         <Row className=" justify-content-center "> 
          <Col md={12} xs={12} xl={12}>
             <div className="reserve d-flex align-items-center justify-content-center">
@@ -187,4 +196,6 @@ function Section3() {
     </div>
   );
 }
-export default Section3;
+export default Section3;//export Section3 function to use it when It needed
+//// start of Section 3 ///
+

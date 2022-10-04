@@ -1,21 +1,24 @@
 //Section 1 from Footer by Dania Haroun !!!
-
+///Website Features
 import Container from "../../../../components/Container";
-
 import {Row,Col} from "react-bootstrap";
 
+//// start of Section 1 from footer ///
 
 function Section1() {
   return (
     <div >
       <div>
         <Container >
+          {/* this section will appear only on md &lg & xl & xxl  */}
           <div className=" d-none d-sm-none d-md-block mt-5  ">
+            {/* this section is devide into 2 divs , one of them will appear according to display size */}
+            {/* the first div will appear in xxl only */}
           <div className=" d-xxl-block d-none py-4">
           <div className="service-contain">   
               <div >    
+                {/* here we have a row with 4 columns and in each column we have an img with text */}
                        <Row className="lineundersection py-4 ">
-
                 <Col xxl={3} xl={3}>
                   <div className=" align-items-center d-flex me-0">
                     <div >
@@ -83,10 +86,12 @@ function Section1() {
               </div>
             </div>
           </div>
-
+            {/* the 2nd div will appear in xl & lg only */}
           <div className="  d-lg-block d-xl-block d-xxl-none py-4 ">
           
               <div  > 
+   {/* here we have 2 rows with 2 columns in each of them  and in each column we have an img with text */}
+
                  <Row >   
                 <Col xl={6} lg={6} md={6}>
                   <div >
@@ -168,4 +173,5 @@ function Section1() {
     </div>
   );
 }
-export default Section1;
+export default Section1;//export Section1 function to use it when It needed
+//// End of Section 1 ///

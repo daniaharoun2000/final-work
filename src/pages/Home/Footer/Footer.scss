@@ -1,6 +1,8 @@
 //Footer scss by Dania Haroun !!!
 
 #main-home {
+  //////////////////////////index.js/////////////////////////////
+
     .footercover{
    
         content: "";
@@ -14,6 +16,10 @@
         z-index: -1;
     
 }
+a:hover{
+    color: #0da487;
+  }
+  //////////////////////////Section 1/////////////////////////////
 
 .service-contain .service-box {
     
@@ -22,30 +28,6 @@
     align-items: center;
     position: relative;
 }
-
-///////////////section2
-.logoo {
-width: 176px;
-}
-svgg{
-    width: 18px;
-    height: 18px;
-    stroke: #4a5568;
-}
-
- .main-footer .footer-contain ul li {
-    display: block;
- 
-}
-.lineundersection{
-
-    content: "";
- 
- 
-    border-bottom: 1px dashed rgba(74,85,104,0.3);
-}
-
-
 .service-box::before {
     content: "";
     position: absolute;
@@ -74,19 +56,35 @@ svgg{
     border-image-outset: initial;
     border-image-repeat: initial;
 }
-////section3 and 1
-.oneshapeline {
+.lineundersection{
+
     content: "";
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 1px;
-    height: 50%;
-    left: -104px;
-    border: 1px dashed #c1c1c1;
+ 
+ 
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
 }
-a:hover{
-    color: #0da487;
-  }
+  //////////////////////////Section 2/////////////////////////////
+
+.logoo {
+width: 176px;
+}
+
+svgg{
+    width: 18px;
+    height: 18px;
+    stroke: #4a5568;
+}
+.main-footer .footer-contain ul li {
+    display: block;
+ 
+}
+.lineundersection{
+
+    content: "";
+ 
+ 
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
+}
+
+
 }

@@ -1,23 +1,29 @@
 //Section 2 from Footer by Dania Haroun !!!
-
+// Website Parts
 import Container from "../../../../components/Container"; 
 
 import {Row,Col} from "react-bootstrap";
 
+//// start of Section 2 from footer ///
 
 function Section2() {
   return (
 <div className="main-footer section-b-space section-t-space  ">
-    <Container><Row className="lineundersection py-2 pb-3">
+    <Container>
+                  {/* here we have one row with 5 columns  */}
+
+        <Row className="lineundersection py-2 pb-3">
+            {/* in the first column we have a logo img & some texts */}
                     <Col xl={3}md={6} lg={4} xs={12}>
                     
                         <div className="footer-logo mt-2">
+                            {/* logo img */}
                             <div className="theme-logo">
                                 <a href="/">
                                     <img src="	https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="" className="logoo"/>
                                 </a>
                             </div>
-
+{/* some texts */}
                             <div className="footer-logo-contain mt-4">
                                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
                                     demonstrate the visual form.</p>
@@ -35,11 +41,14 @@ function Section2() {
                             </div>
                     
                     </div></Col>
+                                {/* in the 2nd column we have a footer title and footer contain */}
+
                     <Col xl={2} lg={3}  md={6} xs={12}>
+                        {/* footer title */}
                         <div className="footer-title  mt-2">
                             <h4>Categories</h4>
                         </div>
-
+{/* footer contain (ul) with (li) items  */}
                         <div className="footer-contain mt-4">
                             <ul>
                                 <li>
@@ -63,13 +72,15 @@ function Section2() {
                             </ul>
                         
                     </div></Col>
+                                {/* in the 3rd ccolumn we have a footer title and footer contain */}
+
                     <Col xl={2} lg={3}  md={3}xs={12}>
-                    
+                    {/* footer title */}
                         <div className="footer-title  mt-2">
                             <h4>Useful Links</h4>
                         </div>
-
-                        <div className="footer-contain mt-4">
+{/* footer contain (ul) with (li) items  */}
+<div className="footer-contain mt-4">
                             <ul>
                                 <li >
                                     <a href="/" className="text-content">Home</a>
@@ -89,11 +100,14 @@ function Section2() {
                             </ul>
                         </div>
                   </Col>
+                                                  {/* in the 4th ccolumn we have a footer title and footer contain */}
+
                     <Col xl={2} lg={2} md={3} xs={12}>
-                   
+                   {/* footer title */}
                         <div className="footer-title  mt-2">
                             <h4>Help Center</h4>
                         </div>
+{/* footer contain (ul) with (li) items  */}
 
                         <div className="footer-contain mt-4">
                             <ul>
@@ -118,14 +132,21 @@ function Section2() {
                             </ul>
                         </div>
                </Col>
+      {/* in the 5th ccolumn we have a footer title &  number & email & downlod app */}
+
                     <Col xl={3} lg={4} md={6} xs={12}>
-     
+                        {/* footer title */}
+
                         <div className=" mt-2">
                             <h4>Contact Us</h4>
                         </div>
+{/* here we have a ul that have Rows and columns , in every column we have a li elemnt  */}
  <div className=" mt-4 ">
                             <ul>
-                                <Row><Col xs={12}>
+                                {/* first Row */}
+                                <Row>
+                                    <Col xs={12}>
+                                        {/*  number */}
                                 <li className="lineundersection ">
                                     <div className="footer-number">
                                         <div className="contact-number">
@@ -138,7 +159,10 @@ function Section2() {
                                     </div>
                                 </li>
                                 </Col></Row>
-                                <Row><Col  xs={12}>  
+                                {/* 2nd Row */}
+                                <Row>
+                                    <Col  xs={12}> 
+                                     {/*Email  */}
                                 <li className="lineundersection mt-4"> 
                                     <div className="footer-number">
                                         <div className="contact-number ">
@@ -149,8 +173,10 @@ function Section2() {
                                         </div>
                                     </div>
                                 </li></Col></Row>
-                              
-                                <Row><Col  xs={12}>
+                              {/* 3rd Row */}
+                                <Row>
+                                    <Col  xs={12}>
+                                        {/*Download App   */}
                                 <li className="social-app  mt-4">
                                     <h5 className="mb-2 text-content ">Download App :</h5>
                                     <ul className="d-flex justify-content-center align-items-center">
@@ -175,4 +201,5 @@ function Section2() {
 
   );
 }
-export default Section2;
+export default Section2;//export Section2 function to use it when It needed
+//// start of Section 2 ///
