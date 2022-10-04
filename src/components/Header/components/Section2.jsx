@@ -1,44 +1,57 @@
 //Section 2 by Dania Haroun !!!
 //Sticky Header
-import logo from "../images/1.png";
+// this is a fixed/sticky header on scroll
+import logo from "../images/1.png"; //fastcart logo img
 import { Row, Col, InputGroup, Form, Button } from "react-bootstrap";
-import React, { useState } from "react";
-import LocationBar from "./LocationBar";
-import OffcanvasNavbar from "./OffcanvasNavbar"; //this is my navbar that will appeare when the page size is reduce
-import Container from "../../Container";
-import SearchBar from "./SearchBar";
+import React, { useState } from "react"; //useState to make the header -> fixed header
+import LocationBar from "./LocationBar"; // LocationBar component
+import SearchBar from "./SearchBar";// SearchBar component
+import OffcanvasNavbar from "./OffcanvasNavbar"; //this is offcanvas navbar component that will appeare when the page size reduce
+import Container from "../../Container";  //my container
+
+//// start of Section2 function(Sticky Header) ///
 
 function Section2() {
   /////////////----------------This is function for fixed the navbar when the user scrolled---------------------------/////////////////
-  const [fix, setFix] = useState(false);
+  const [fix, setFix] = useState(false); //make fix=false at the beginning ande will change when user scroll
   function setFixed() {
-    console.log("window", window.scrollY, fix);
-    if (window.scrollY >= 43) {
-      setFix(true);
+    // The scrollY property returns the pixels a document has scrolled from the upper left corner of the window.
+
+    console.log("window", window.scrollY, fix); //show (window) when scroll
+    if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upper left corner of the window is larger or equal 43(My estimate number)
+      setFix(true); // if is is larger or equal 43 then make fix =true , else make it flase
     } else {
       setFix(false);
     }
   }
+  //useLayoutEffect -> the react library consider the page’s layout and change its calculations for things 
+  // window.addEventListener() registers a single event listener on a window so here we use scroll as an event and setFixed as a func that will run when the event occurs
   React.useLayoutEffect(() => {
     window.addEventListener("scroll", setFixed);
   });//,[]
-  //////////-----------------End of the function-----------------------------/////////////
+  //////////-----------------End of fixednav function-----------------------------/////////////
   return (
     <div
       className={
         fix
-          ? "bg-white  position-fixed top top-0  shadow-sm w-100 fixed-nav"
-          : "bg-white "
+          ? "bg-white  position-fixed top top-0  shadow-sm w-100 fixed-nav"   //if fix=true this style will run
+          : "bg-white "     //if fix=flase this style will run
       }
     >
       <div>
         <Container>
           <Row className="align-items-center  gx-2  py-2">
+            {/* The sticky header is divided into three columns */}
+        {/* the first column contains a row that has 4 columns  */}
             <Col xl={2} md={4} xs={12}>
               <Row className="align-items-center justify-content-between gx-2 ">
+                {/* row that has 4 columns */}
+                {/* the first column is OffcanvasNavbar that will not appeare in xl & xxl  */}
                 <Col md={2} xs={2} className="d-xl-none">
                   <OffcanvasNavbar />
                 </Col>
+   {/* the 2nd column -> fastcart logo  */}
+
                 <Col xl={8} md={6} xs={3}>
                   <img
                     src={logo}
@@ -46,9 +59,12 @@ function Section2() {
                     className="align-items-center logoimagesection2header w-100"
                   />
                 </Col>
+                   {/* the 3rd column -> LocationBar component  */}
                 <Col md={3} xs={2} className="d-xl-none d-md-block d-none ">
                   <LocationBar />
                 </Col>
+     {/* the 4th column -> user icon  that will appeare in mobile display sizes  */}
+
                 <Col xs={2} className="d-md-none">
                   <div className="d-flex justify-content-end">
                     <svg
@@ -70,20 +86,24 @@ function Section2() {
                 </Col>
               </Row>
             </Col>
-
+        {/* the 2nd column contains a row that has 2 columns that runs in xl &xxl */}
             <Col xl={7} xs={0} className="d-none d-xl-block">
               <Row className="align-items-center gx-2 ">
+                        {/* the first column contain LocationBar component */}
                 <Col xl={4} xs={8}>
                   <LocationBar />
                 </Col>
+                                        {/* the 2nd column contain Search box input & it will run in xl & xxl only*/}
                 <Col xl={8} lg={0} className="d-none d-xl-block">
                   <div className="text-white  text-overflow-1 d-sm-none d-md-block">
+                    {/* here I used InputGroup from bootstrap to run the searchbox */}
                     <InputGroup>
                       <Form.Control
                         placeholder="I'm searching for...."
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                       />
+                      {/* make the search icon -> button */}
                       <Button id="button-addon2" className="searchicon">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -105,18 +125,23 @@ function Section2() {
                 </Col>
               </Row>
             </Col>
+                    {/* the 3rd column contains a row that has multiple columns and each of them is (li) element in (ul) list  */}
+
             <Col xl={3} xs={8} className="d-none d-md-block">
               <Row>
+                {/* list and in each li element we have an icon and in each column we have an li elemnt that has an icon */}
                 <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
+                  {/* this column has a li element that has a search icon that appeare in specific display size , here I put it in another component (SearchBar) and called it here */}
                   <Col xxl={1}xl={1}>
-                    
                     <li className="m-0 d-xl-none d-block">
-                      <SearchBar/>
+                      <SearchBar/> 
                     </li>
                   </Col>
+                  {/* li elemnt that has a simple span -> |  */}
                   <li className="m-0 d-xl-none d-block px-3">
                     <span>|</span>
                   </li>
+   {/* this column has a li element that has a phone icon */}
                   <Col xxl={2} xl={2}>
                     <li className="m-0 phoneli ">
                       <div className="d-flex align-items-center justify-content-center gap-2 ">
@@ -143,9 +168,12 @@ function Section2() {
                       </div>
                     </li>
                   </Col>
+                 {/* li elemnt that has a simple span -> |  */}
                   <li className="m-0 px-3">
                     <span>|</span>
                   </li>
+                     {/* this column has a li element that has a heart icon */}
+
                   <Col xxl={1} xl={1}>
                     <li className="m-0"><a href="/">
                       <svg
@@ -164,9 +192,12 @@ function Section2() {
                       </svg></a>
                     </li>
                   </Col>
+                  {/* li elemnt that has a simple span -> |  */}
                   <li className="m-0 px-3">
                     <span>|</span>
                   </li>
+                     {/* this column has a li element that has a cart icon */}
+
                   <Col xxl={1} xl={1}>
                     <li className="m-0"><a href="/">
                       <svg
@@ -187,9 +218,12 @@ function Section2() {
                       </svg></a>
                     </li>
                   </Col>
+                  {/* li elemnt that has a simple span -> |  */}
                   <li className="m-0 px-3">
                     <span>|</span>
                   </li>
+                     {/* this column has a li element that has a user icon */}
+
                   <Col xxl={2} xl={2}>
                     <li className="m-0 ">
                       <div className="d-flex align-items-center justify-content-center gap-1 ">
@@ -227,6 +261,6 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default Section2;//export Section2 function to use it when It needed
 
 //End of Section2 (Sticky Header)

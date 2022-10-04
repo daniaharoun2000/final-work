@@ -1,15 +1,17 @@
 //Section 1 by Dania Haroun !!!
-//TopHeader
-import Container from "../../Container";
+//TopHeader 
+import Container from "../../Container"; //my container
 import {Row,Col,Carousel,NavDropdown} from "react-bootstrap";
 
-////start of Section1 function///
+//// start of Section1 function(Top Header) ///
 
 function Section1() {
   return (
     <div className="bg-primary ">
       <Container>
-        <Row className="py-2">
+        <Row className="py-2"> 
+        {/* The top header is divided into three columns */}
+        {/* the first column contain a text */}
           <Col xxl={3} className=" d-xxl-block d-none d-flex justify-content-start">
             <div className="d-flex  align-items-center ">
               <div>
@@ -32,6 +34,7 @@ function Section1() {
               </div>
             </div>
           </Col>
+          {/* the second column contain a Carousel with 2 items(2 slides) */}
           <Col xxl={6} lg={9} className=" d-lg-block d-none d-flex justify-content-center">
             <Carousel controls={false} indicators={false}>
               <Carousel.Item interval={4000}>
@@ -52,6 +55,7 @@ function Section1() {
               </Carousel.Item>
             </Carousel>
           </Col>
+          {/* the 3rd column contain 2 nav dropdown from bootstrap and each of them have multi navdropdown items */}
           <Col  className="	d-block d-flex justify-content-end ">
             <div className="d-flex  ">
             <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-states.png" className="img-fluid blur-up lazyloaded flag" alt="img"/>
@@ -96,6 +100,6 @@ function Section1() {
     </div>
   );
 }
-export default Section1;
+export default Section1;//export Section1 function to use it when It needed
 
-///End of Section 1 (Top Header)
+///End of Section 1 function (Top Header)

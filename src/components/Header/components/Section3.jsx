@@ -1,14 +1,14 @@
-
+//Section 3 by Dania Haroun !!!
+//NavBar
 import { NavLink } from "react-router-dom";
 import {Row,Col,Navbar,NavDropdown,Dropdown,Button,Modal} from "react-bootstrap";
 import React, { useState } from "react";
 import Container from "../../Container";
 
-//Section 3 by Dania Haroun !!!
+//// start of Section3 function(NavBar) ///
 
 function Section3() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
@@ -573,4 +573,5 @@ function Section3() {
   );
 }
 
-export default Section3;
+export default Section3;//export Section3 function to use it when It needed
+//End of Section3 (NavBar)
