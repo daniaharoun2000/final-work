@@ -24,6 +24,7 @@ $theme-colors: (
  height:  auto;
 }
 
+//text-overflow code to use it in my code
 .text-overflow {
   &-1 {
     overflow: hidden;
@@ -54,12 +55,13 @@ $theme-colors: (
     -webkit-box-orient: vertical;
   }
 }
-
+//bg-effect that do a background img in App function
 .bg-effect {
   background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/bg-body.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
+//to make  a max width -1599 in all sizes
 @media (min-width: 1700px) {
   .container-xxl,
   .container-xl,
@@ -71,9 +73,7 @@ $theme-colors: (
   }
 }
 
-
-
-
+//title-leaf styling that is used in multiple sections 
 .title-leaf {
   content: "";
   position: absolute;
@@ -112,6 +112,7 @@ $theme-colors: (
  margin: -9% -12% ;
 }
 
+//btn styling that is used in multiple sections 
 
 .btn {
   display: flex;
@@ -124,47 +125,4 @@ $theme-colors: (
   white-space: nowrap;
 }
 
-// @media (min-width: 1531px) {
-//   .container-xxl,
-//   .container-xl,
-//   .container-lg,
-//   .container-md,
-//   .container-sm,
-//   .container {
-//     max-width: 1279.820px;
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   .container-xxl,
-//   .container-xl,
-//   .container-lg,
-//   .container-md,
-//   .container-sm,
-//   .container {
-//     max-width: 760.250px;
-//   }
-// }
-
-// @media (min-width: 640px) {
-//   .container-xxl,
-//   .container-xl,
-//   .container-lg,
-//   .container-md,
-//   .container-sm,
-//   .container {
-//     max-width:570.655px;
-//   }
-// }
-
-// @media (min-width: 500px) {
-//   .container-xxl,
-//   .container-xl,
-//   .container-lg,
-//   .container-md,
-//   .container-sm,
-//   .container {
-//     max-width:470.655px;
-//   }
-// }
 
