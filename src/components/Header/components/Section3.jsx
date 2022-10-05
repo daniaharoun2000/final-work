@@ -186,9 +186,12 @@ function Section3() {
                      
                     >
                      <div className="megabg dropdownsizee">
-                        <Row><Col xl={12}> <Row>
-                          <div>
-                            <ul className="unstyled" ><li>
+                        <Row>
+                          <Col xl={12} className="p-0 m-0">
+                           <Row>
+                          <div className="p-0 m-0">
+                            <ul className="unstyled" >
+                              <li>
                              <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
@@ -300,7 +303,8 @@ function Section3() {
                                   </a>
                                 </div>
                               </Col></li>
-                              <li>  <Col xl={3}>
+                              <li> 
+                                 <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
                                     Exotic Vegetables
