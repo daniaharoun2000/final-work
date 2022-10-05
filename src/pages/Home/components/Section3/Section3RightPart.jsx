@@ -12,6 +12,13 @@ import SummerProducts from "./RightPart/SummerProducts";
 import OurBestSellerSlider from "../Slider/OurBestSellerSlider";
 import SummerVEGETABLE from './RightPart/SummerVEGETABLE';
 import FeaturedBlogSlider from "../Slider/FeaturedBlogSlider";
+import "../Slider/BowsebyCategoriesSlider.scss";
+
+import "../Slider/OurBestSellerSlider.scss";
+import "../Slider/FeaturedBlogSlider.scss";
+import "./RightPart/Fiftypercentoffer.scss";
+import "./RightPart/CashBack.scss";
+import "./RightPart/SummerVEGETABLE.scss";
 ////start of Section3RightPart function///
 
 function Section3RightPart() {

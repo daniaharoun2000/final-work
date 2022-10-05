@@ -1,10 +1,11 @@
 //Bowse by Categories Section from Right Part on Home Page by Dania Haroun !!!
-
+//  Swiper (slider)
 import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";
+import { Container } from "../../../../components";//my Container
 import { Col,Row } from "react-bootstrap";
+////start of BowsebyCategoriesSlider function and export it///
 
 export default function BowsebyCategoriesSlider() {
   return (
@@ -13,7 +14,10 @@ export default function BowsebyCategoriesSlider() {
       <div>
         <Container>
           <div  className=" py-4">
-          <Row><Col xl={12}>
+            {/* there is one row with one col */}
+          <Row>
+            <Col xl={12}>
+              {/* Bowse by Categories Swiper Title */}
          <div className="title title-flex">
               <div>
                 <h2>Browse By Categories</h2>
@@ -27,9 +31,9 @@ export default function BowsebyCategoriesSlider() {
                 <p>Top Categories Of The Week</p>
               </div>
             </div>
+            {/* swiper */}
       <Swiper
         spaceBetween={0}
-        // slidesPerView={7}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         modules={[Autoplay, Pagination, Navigation, Lazy]}
@@ -43,6 +47,7 @@ export default function BowsebyCategoriesSlider() {
         
         loop={true}
         breakpoints={{
+          // here I specified n of slides according to screen size
           320: {
             slidesPerView: 2,
           },
@@ -64,6 +69,7 @@ export default function BowsebyCategoriesSlider() {
         
         }}
       >
+        {/* in every  swiper slide there is an img with text*/}
         <SwiperSlide>     <a
                              href="/"
                               className="category-box"
@@ -162,3 +168,4 @@ export default function BowsebyCategoriesSlider() {
   );
 
 }
+////End of BowsebyCategoriesSlider function ///

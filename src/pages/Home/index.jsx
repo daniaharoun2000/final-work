@@ -9,13 +9,7 @@ import "./components/Section2/Section2.scss";
 import "./components/Section3/Section3LeftPart.scss";
 import React from "react";
 import ScrollButton from "./components/ScrollButton";
-import "./components/Slider/BowsebyCategoriesSlider.scss";
-import "./components/Section3/RightPart/Fiftypercentoffer.scss";
-import "./components/Section3/RightPart/CashBack.scss";
-import "./components/Section3/RightPart/SummerProducts.scss";
-import "./components/Section3/RightPart/SummerVEGETABLE.scss";
-import "./components/Slider/OurBestSellerSlider.scss";
-import "./components/Slider/FeaturedBlogSlider.scss";
+
 import "./components/Section4/Newsletter.scss";
 import Footer from "./Footer/index";
 import "./Footer/Footer.scss";

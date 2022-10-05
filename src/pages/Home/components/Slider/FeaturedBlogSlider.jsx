@@ -1,10 +1,11 @@
 //Featured Blog Section from Right Part on Home Page by Dania Haroun !!!
-
+//  Swiper (slider)
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";
+import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
+////start of FeaturedBlogSlider function and export it///
 
 export default function FeaturedBlogSlider() {
   return (
@@ -13,8 +14,12 @@ export default function FeaturedBlogSlider() {
         <div>
           <Container>
             <div className=" py-4">
+                          {/* there is one row with one col */}
+
               <Row>
                 <Col xl={12}>
+                               {/* Featured Blog Swiper Title */}
+
                 <div className="title title-flex py-4 ">
               <div>
                 <h2>Featured Blog</h2>
@@ -28,6 +33,8 @@ export default function FeaturedBlogSlider() {
                 <p>A virtual assistant collects the products from your list</p>
               </div>
             </div>
+                        {/* swiper */}
+
                   <Swiper
                   
                     spaceBetween={10}
@@ -44,6 +51,8 @@ export default function FeaturedBlogSlider() {
                     
                     loop={true}
                     breakpoints={{
+                                // here I specified n of slides according to screen size
+
                        320: {
                             slidesPerView:1,
                           },
@@ -65,6 +74,8 @@ export default function FeaturedBlogSlider() {
                       },
                     }}
                   >
+                            {/* in every  swiper slide there is an img with text*/}
+
                     <SwiperSlide  >
                     <a
                              href="/"
@@ -127,3 +138,4 @@ export default function FeaturedBlogSlider() {
     </>
   );
 }
+////End of FeaturedBlogSlider function ///

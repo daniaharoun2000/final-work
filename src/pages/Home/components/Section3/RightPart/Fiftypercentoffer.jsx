@@ -1,20 +1,27 @@
 //Fiftypercentoffer Section from Right Part on Home Page by Dania Haroun !!!
+//this section is a two imgs as a background , with normal text
 
 import { Row, Col } from "react-bootstrap";
-import Container from "../../../../../components/Container";
+import Container from "../../../../../components/Container";//my Container
+////start of Fiftypercentoffer function///
 
 function Fiftypercentoffer() {
   return (
     <div>
       <Container>
-        <Row>
+        {/* here is one row with 2 cols */}
+        <Row>       
+               {/* each col has an img as a bg with text */}
+
           <Col xl={6} md={6}>
+            {/* img */}
             <div className=" coverimageonefifty banner-contain mt-1 ">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/9.jpg"
                 className="d-none"
                 alt=""
               />
+              {/* text */}
               <div className=" p-4 ">
                 <div>
                   <h3>50% offer</h3>
@@ -28,14 +35,19 @@ function Fiftypercentoffer() {
               </div>
             </div>
           </Col>
+            {/* each col has an img as a bg with text */}
 
           <Col xl={6} md={6}>
             <div className=" coverimagetwofifty banner-contain mt-1">
+                          {/* img */}
+
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/10.jpg"
                 className="d-none"
                 alt=""
               />
+                            {/* text */}
+
               <div className=" p-4 ">
                 <div>
                   <h3>50% offer</h3>
@@ -54,4 +66,6 @@ function Fiftypercentoffer() {
     </div>
   );
 }
-export default Fiftypercentoffer;
+export default Fiftypercentoffer;//export Fiftypercentoffer function to use it when It needed 
+////End of Fiftypercentoffer function///
+

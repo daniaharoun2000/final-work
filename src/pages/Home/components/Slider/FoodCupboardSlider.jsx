@@ -1,13 +1,14 @@
 //Food Cupboard Section from Right Part on Home Page by Dania Haroun !!!
-
+//  Swiper (slider)
 import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";
+import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
-
 import Rating from "../Rating";
 import AddButton from "../AddButton";
+////start of FoodCupboardSlider function and export it///
+
 export default function FoodCupboardSlider() {
   return (
     <>
@@ -15,8 +16,12 @@ export default function FoodCupboardSlider() {
         <div>
           <Container>
             <div className=" py-4">
+                                        {/* there is one row with one col */}
+
               <Row>
                 <Col xl={12} >
+                                                 {/* Food Cupboard Swiper Title */}
+
                   <div className="title title-flex py-4">
                     <div>
                       <h2>Food Cupboard</h2>
@@ -32,6 +37,7 @@ export default function FoodCupboardSlider() {
                       </p>
                     </div>
                   </div>
+                  {/* Swiper */}
                   <Swiper
                     spaceBetween={0}
                     // slidesPerView={7}
@@ -47,6 +53,8 @@ export default function FoodCupboardSlider() {
                     
                     loop={true}
                     breakpoints={{
+                                                      // here I specified n of slides according to screen size
+
                        320: {
                             slidesPerView:2,
                           },
@@ -70,6 +78,8 @@ export default function FoodCupboardSlider() {
                       },
                     }}
                   >
+                                             {/* in every  swiper slide there is an img with text*/}
+   
                     <SwiperSlide>
                     <div className="p-3 border  cardhovering">
                               <img
@@ -223,3 +233,5 @@ export default function FoodCupboardSlider() {
     </>
   );
 }
+
+////End of FoodCupboardSlider function ///

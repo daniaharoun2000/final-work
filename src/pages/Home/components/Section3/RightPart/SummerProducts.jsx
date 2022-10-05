@@ -1,17 +1,24 @@
 //SummerProducts Section from Right Part on Home Page by Dania Haroun !!!
+//this section is a two imgs as a background , with normal text
 
-import Container from "../../../../../components/Container";
+import Container from "../../../../../components/Container";//my Container
 import { Col, Row } from "react-bootstrap";
-import "./SummerProducts.scss";
+////start of SummerProducts function///
 
 function SummerProducts() {
   return (
     <div>
       <Container>
         <div className="py-4 ">
+                  {/* here is one row with 2 cols */}
+
           <Row>
+                           {/* each col has an img as a bg with text */}
+
             <Col xxl={8} xl={12} lg={8} md={7} sm={12}>
               <div className="position-relative  blur-up  py-1">
+                            {/* img */}
+
                 <img
                   src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/12.jpg"
                   className="w-100 "
@@ -20,6 +27,7 @@ function SummerProducts() {
                 />
                 <div className=" textforimage2 position-absolute my-1 ">
                   <div >
+                    {/* text */}
                     <h2 className=" fw-normal text-primary">Get Ready To</h2>
                     <h3 className="mt-2 mb-3">TAKE ON THE DAY!</h3>
                     <p className=" w-75 text-aa">
@@ -37,15 +45,20 @@ function SummerProducts() {
                 </div>
               </div>
             </Col>
+                           {/* each col has an img as a bg with text */}
+
             <Col xxl={4} xl={12} lg={4} md={5} sm={12}>
               <div className="position-relative  blur-up  py-2 ml-1">
-        
+                    {/* img */}
+
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg"
                     className="w-100"
                     style={{ minHeight: 258 }}
                     alt=""
                   />
+                              {/* text */}
+
                   <div className="   textforimage2 position-absolute my-2">
                     <div>
                       <h2 className=" fw-normal text-dd">20% Off</h2>
@@ -62,4 +75,5 @@ function SummerProducts() {
     </div>
   );
 }
-export default SummerProducts;
+export default SummerProducts;//export SummerProducts function to use it when It needed 
+////End of SummerProducts function///

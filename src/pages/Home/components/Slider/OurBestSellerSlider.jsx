@@ -1,10 +1,11 @@
 //Our Best Seller Section from Right Part on Home Page by Dania Haroun !!!
-
+//  Swiper (slider)
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";
+import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
+////start of OurBestSellerSlider function and export it///
 
 export default function OurBestSellerSlider() {
     
@@ -15,8 +16,11 @@ export default function OurBestSellerSlider() {
         <div>
           <Container>
             <div className=" py-4">
+               {/* there is one row with one col */}
               <Row>
                 <Col xl={12}>
+                                                                   {/*Our Best Seller Title */}
+
                   <div className="title d-block py-4">
                     <div>
                       <h2>Our best Seller</h2>
@@ -31,7 +35,10 @@ export default function OurBestSellerSlider() {
                       </p>
                     </div>
                   </div>
+                  {/* here we have 2 divs , one of them will appear according to display size */}
+                  {/* first div will appear in xl & md & xs only*/}
                   <div className=" d-lg-none d-xxl-none d-xl-block d-md-block d-xs-block">
+                    {/* swiper */}
                     <Swiper
                     
                       spaceBetween={10}
@@ -49,6 +56,8 @@ export default function OurBestSellerSlider() {
                       
                       loop={true}
                       breakpoints={{
+              // here I specified n of slides according to screen size
+
                         320: {
                           slidesPerView: 1,
                         },
@@ -57,6 +66,8 @@ export default function OurBestSellerSlider() {
                         },
                       }}
                     >
+      {/* in every  swiper slide there is an img with text*/}
+
                       <SwiperSlide>
                         <div className="slick-slide slick-current slick-active ">
                           <ul className="product-list  p-3 border rounded-3">
@@ -495,13 +506,21 @@ export default function OurBestSellerSlider() {
                     </Swiper>
                     
                   </div>
+
+                  {/* 2nd div will appear in xxl & lg only */}
                   <div className="d-none  d-xxl-block d-xl-none d-lg-block d-md-none ">
                     <div className="best-selling-slider product-wrapper wow fadeInUp slick-initialized slick-slider ">
                       <div className="slick-list draggable  ">
                         <div className="slick-track">
+                           {/* react gutters from bootstrap */}
+{/* in xxl -> show 3 cols  , in xl -> show 2 cols ,in lg -> show 3 cols , in md -> show 2 cols ,in sm -> show 1 cols ,  in xs -> show 1 cols*/}
+     
                           <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1  ">
+                            {/* here there is 3 cols */}
                             <Col>
+                            {/* in every col there is ul and li elemnts */}
                               <ul className="product-list  p-3 border rounded-3  ">
+                                {/* in every li elemnt there is an img & text */}
                                 <li className=" mb-4  mt-2">
                                   <div className="offer-product">
                                     <a
@@ -638,7 +657,11 @@ export default function OurBestSellerSlider() {
                               </ul>
                             </Col>
                             <Col>
+                                                        {/* in every col there is ul and li elemnts */}
+
                               <ul className="product-list  p-3 border rounded-3">
+                                                                {/* in every li elemnt there is an img & text */}
+
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
@@ -777,7 +800,11 @@ export default function OurBestSellerSlider() {
                               </ul>
                             </Col>
                             <Col>
+                                                        {/* in every col there is ul and li elemnts */}
+
                               <ul className="product-list  p-3 border rounded-3">
+                                                                {/* in every li elemnt there is an img & text */}
+
                                 <li className=" mb-4  mt-2">
                                   <div className="offer-product">
                                     <a
@@ -931,3 +958,4 @@ export default function OurBestSellerSlider() {
     </>
   );
 }
+////End of OurBestSellerSlider function ///
