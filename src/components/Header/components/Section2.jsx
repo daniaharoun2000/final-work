@@ -16,9 +16,7 @@ function Section2() {
   const [fix, setFix] = useState(false); //make fix=false at the beginning ande will change when user scroll
   function setFixed() {
     // The scrollY property returns the pixels a document has scrolled from the upper left corner of the window.
-
-    console.log("window", window.scrollY, fix); //show (window) when scroll
-    if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upper left corner of the window is larger or equal 43(My estimate number)
+if (window.scrollY >= 43) { //if the pixels a document has scrolled from the upper left corner of the window is larger or equal 43(My estimate number)
       setFix(true); // if is is larger or equal 43 then make fix =true , else make it flase
     } else {
       setFix(false);

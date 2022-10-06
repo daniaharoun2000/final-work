@@ -77,7 +77,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide  >
                     <a
                              href="/"
-                              className="category-box imgblog imghoveringin"
+                              className="category-box imgblog imghoveringin mb-2"
                               tabIndex="-1"
                             > </a>
 
@@ -93,7 +93,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide >
                     <a
                              href="/"
-                              className="category-box imgblog2 imghoveringin"
+                              className="category-box imgblog2 imghoveringin mb-2"
                               tabIndex="-1"
                             > </a>
                             <a
@@ -108,7 +108,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide >
                      <a
                              href="/"
-                              className="category-box imgblog3 imghoveringin"
+                              className="category-box imgblog3 imghoveringin mb-2"
                               tabIndex="-1"
                             > </a>
                             <a
