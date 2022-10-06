@@ -2,13 +2,11 @@
 //this section is a two imgs as a background , with normal text
 
 import { Row, Col } from "react-bootstrap";
-import Container from "../../../../../components/Container";//my Container
 ////start of Fiftypercentoffer function///
 
 function Fiftypercentoffer() {
   return (
     <div>
-      <Container>
         {/* here is one row with 2 cols */}
         <Row>       
                {/* each col has an img as a bg with text */}
@@ -62,7 +60,6 @@ function Fiftypercentoffer() {
             </div>
           </Col>
         </Row>
-      </Container>
     </div>
   );
 }

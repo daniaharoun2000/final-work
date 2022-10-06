@@ -1,6 +1,5 @@
 //AddButton by Dania Haroun !!!
 // AddButton will be used in Top Save Today & Food Cupboard sections
-import Container from "../../../components/Container";//my Container
 import {Row,Col,Button} from "react-bootstrap";
 import "./AddButton.scss";
 
@@ -9,7 +8,7 @@ import "./AddButton.scss";
 function AddButton() {
   return (
     <div>
-      <Container>
+      
         {/* here we have a row with 2 columns(the columns are in a Button )  */}
         <Row>
             <Button className="bg-cat buttonclass mt-2">
@@ -37,7 +36,6 @@ function AddButton() {
             </Button>
          
         </Row>
-      </Container>
     </div>
   );
 }

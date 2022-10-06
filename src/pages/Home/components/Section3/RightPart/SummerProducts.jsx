@@ -1,14 +1,12 @@
 //SummerProducts Section from Right Part on Home Page by Dania Haroun !!!
 //this section is a two imgs as a background , with normal text
 
-import Container from "../../../../../components/Container";//my Container
 import { Col, Row } from "react-bootstrap";
 ////start of SummerProducts function///
 
 function SummerProducts() {
   return (
     <div>
-      <Container>
         <div className="py-4">
                   {/* here is one row with 2 cols */}
 
@@ -71,7 +69,6 @@ function SummerProducts() {
             </Col>
           </Row>
         </div>
-      </Container>
     </div>
   );
 }

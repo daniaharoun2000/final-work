@@ -1,7 +1,6 @@
 //SummerVEGETABLE Section from Right Part on Home Page by Dania Haroun !!!
 //this section is an img as a background , with normal text
 
-import { Container } from "../../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
 
 ////start of SummerVEGETABLE function///
@@ -9,7 +8,7 @@ import { Col, Row } from "react-bootstrap";
 function SummerVEGETABLE() {
   return (
     <div >
-   <Container><div className="py-4">
+   <div className="py-4">
             {/* here is a row with one col */}
 
     <Row>
@@ -32,7 +31,6 @@ function SummerVEGETABLE() {
                             </div>
                
                     </div></Col></Row></div>
-   </Container>
    </div>
   );
 }

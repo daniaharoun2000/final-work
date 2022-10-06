@@ -1,7 +1,6 @@
 //Rating by Dania Haroun !!!
 // Rating will be used in Top Save Today & Food Cupboard sections
 import { Col,Row } from 'react-bootstrap';
-import Container from '../../../components/Container';//my Container
 import './Rating.scss';
 
 ////start of Rating function and export it///
@@ -9,7 +8,7 @@ import './Rating.scss';
 export default function Rating() {
     return (
         <div >
-            <Container>
+           
                       {/* here we have a row with 2 columns */}
 
               <Row  className="d-flex justify-content-center align-items-center">
@@ -104,7 +103,7 @@ export default function Rating() {
   <Col xxl={6}   md={6} xs={12} className="p-0">
   <h6 className="text-primary m-0 mb-0 p-0">
                 In Stock
-              </h6></Col></Row></Container>
+              </h6></Col></Row>
 </div>
 );}
 ////End of Rating function ///

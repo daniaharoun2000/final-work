@@ -9,10 +9,10 @@ import {Row,Col} from "react-bootstrap";
 function Section2() {
   return (
 <div className="main-footer section-b-space section-t-space">
-    <Container>
+   
                   {/* here we have one row with 5 columns  */}
 
-        <Row className="lineundersection py-2 pb-3">
+        <Row className=" py-2 pb-3">
             {/* in the first column we have a logo img & some texts */}
                     <Col xl={3}md={6} lg={4} xs={12}>
                     
@@ -147,7 +147,7 @@ function Section2() {
                                 <Row>
                                     <Col xs={12}>
                                         {/*  number */}
-                                <li className="lineundersection">
+                                <li className="">
                                     <div className="footer-number">
                                         <div className="contact-number">
                                         <div className="d-flex align-items-center">
@@ -163,7 +163,7 @@ function Section2() {
                                 <Row>
                                     <Col  xs={12}> 
                                      {/*Email  */}
-                                <li className="lineundersection mt-4"> 
+                                <li className=" mt-4"> 
                                     <div className="footer-number">
                                         <div className="contact-number">
                                             <div className="align-items-center">
@@ -196,7 +196,7 @@ function Section2() {
                         </div>
                    
       </Col></Row>
-                </Container>
+                
             </div>
 
   );

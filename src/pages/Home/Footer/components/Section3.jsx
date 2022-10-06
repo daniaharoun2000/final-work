@@ -6,8 +6,8 @@ import {Row,Col} from "react-bootstrap";
 //// start of Section 3 from footer ///
 function Section3() {
   return (
-    <div className="sub-footer section-small-space">
-      <Container>
+    <div className="sub-footer section-small-space main-footer ">
+      
          {/* this section is devide into 2 divs , one of them will appear according to display size */}
             {/* the first div will appear in lg only */}
         <div className="d-none d-lg-block d-sm-none  py-4">
@@ -190,7 +190,7 @@ function Section3() {
             </div>
           </Col></Row>
         </div>
-      </Container>
+      
     </div>
   );
 }

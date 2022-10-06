@@ -1,6 +1,5 @@
 //Cookies Box by Dania Haroun !!!
 
-import { Container } from "../../../../components"; //my Container
 import { useState } from "react"; //to use it in show & hide cookies box
 
 import { Col, Row, Button } from "react-bootstrap";
@@ -15,7 +14,7 @@ function Cookies() {
     // if showcookiesbox is true , make style ->cookie-bar-box
     // if it is false , make style ->hhide (hide the cookies box)
     <div className={`lightbox ${showcookiesbox ? "cookie-bar-box" : "hhide"}`}>
-      <Container>
+     
         {/* here we have a Row with one column */}
         <Row>
           <Col xl={12}>
@@ -57,7 +56,7 @@ function Cookies() {
             </div>
           </Col>
         </Row>
-      </Container>
+      
     </div>
   );
 }

@@ -1,13 +1,11 @@
 //CashBack Section from Right Part on Home Page by Dania Haroun !!!
 //this section is an img as a background , with normal text
-import Container from "../../../../../components/Container";//my Container
 import { Col, Row } from "react-bootstrap";
 ////start of CashBack function///
 
 function CashBack() {
   return (
     <div >
-      <Container>
         {/* here is a row with one col */}
         <Row>
           <Col xl={12} className="py-4">
@@ -31,7 +29,6 @@ function CashBack() {
             </div>
           </Col>
         </Row>
-      </Container>
     </div>
   );
 }

@@ -12,8 +12,8 @@ function Section1() {
                     {/* here we have row with 2 columns */}
         <Row>
           {/* the first col has an img with text */}
-          <Col xl={8} md={12} lg={12}>
-            <div className="position-relative imgonesectionone mt-4 gfg">
+          <Col xl={8} md={12} lg={12} className=" ratio_65">
+            <div className="position-relative  mt-4 gfg ">
               <div className="textforimage2 position-absolute">
                 <div className="textforimage">
                   <h6>
@@ -24,7 +24,7 @@ function Section1() {
                     Stay home &amp; delivered your
                     <span className="text-primary ms-1">Daily Needs</span>
                   </h1>
-                  <p className="w-75 d-none d-sm-block text-aa psection1">
+                  <p className="w-50 d-none d-sm-block text-aa psection1">
                     Vegetables contain many vitamins and minerals that are good
                     for your health.
                   </p>
@@ -43,11 +43,11 @@ function Section1() {
           <Col xl={4}>
             {/* in this col there is a row with 2 cols , in each column there is an img with text */}
             <Row>
-              <Col xl={12} md={6} lg={6}>
-                <div className="position-relative mt-4">
+              <Col xl={12} md={6} lg={6} >
+                <div className="position-relative mt-4 ">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
-                    className="rounded border-light imgtwosectionone w-100" alt="img"
+                    className="rounded border-light imgtwosectionone w-100 " alt="img"
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
@@ -68,11 +68,11 @@ function Section1() {
                   </div>
                 </div>
               </Col>
-              <Col xl={12} md={6} lg={6}>
+              <Col xl={12} md={6} lg={6} >
                 <div className="position-relative mt-4">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/3.jpg"
-                    className="rounded border-light imgtwosectionone w-100"
+                    className="rounded border-light imgtwosectionone w-100 "
                   />
                   <div className="textforimage2 position-absolute">
                     <div>

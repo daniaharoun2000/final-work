@@ -27,7 +27,7 @@ function Section3() {
                 <Dropdown.Toggle
                   variant="primary"
                   id="dropdown-one"
-                  className="AllCategories align-items-center justify-content-center d-flex"
+                  className="AllCategories align-items-center justify-content-center d-flex text-badge"
                 >
                       <div className="d-flex justify-content-center align-items-center p-1">
                         {/* this div for lines icon */}

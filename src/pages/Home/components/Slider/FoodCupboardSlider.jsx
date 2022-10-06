@@ -3,7 +3,6 @@
 import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
 import Rating from "../Rating";
 import AddButton from "../AddButton";
@@ -14,7 +13,6 @@ export default function FoodCupboardSlider() {
     <>
       <div>
         <div>
-          <Container>
             <div className="py-4">
                                         {/* there is one row with one col */}
 
@@ -227,7 +225,6 @@ export default function FoodCupboardSlider() {
                 </Col>
               </Row>
             </div>
-          </Container>
         </div>
       </div>
     </>

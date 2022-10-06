@@ -3,7 +3,6 @@ import CountdownTimer from '../../CountdownTimer'; //call CountdownTimer compone
 import { Col, Row } from "react-bootstrap";
 import Rating from "../../Rating";//call Rating component
 import AddButton from "../../AddButton";//call AddButton component
-import { Container } from "../../../../../components";//my Container
 function TopSaveToday() {
     /////////////----------------This constants for use them in CountdownTimer component in an  Expires box ---------------------------/////////////////
 //I assuemed that expire time is after 333 days from now
@@ -17,7 +16,7 @@ function TopSaveToday() {
   return (
     
     <div >
-      <Container>
+      
         {/* there is 2 rows */}
         <div className='py-2'>
           {/* the first row has 2 cols */}
@@ -93,7 +92,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2  mx-2">
               {/* I called (Rating & AddButton) components  */}
               <Rating />
             </div>
@@ -118,7 +117,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -144,7 +143,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -174,7 +173,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -199,7 +198,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -231,7 +230,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -256,7 +255,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -281,7 +280,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -307,7 +306,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -333,7 +332,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="mt-2">
+            <div className="mt-2 mx-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -342,7 +341,7 @@ function TopSaveToday() {
           </Col>
         </Row>
         </div>
-      </Container>
+     
 
     </div>
   );

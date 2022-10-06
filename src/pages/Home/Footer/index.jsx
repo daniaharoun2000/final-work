@@ -1,5 +1,7 @@
 // Footer Index.js by Dania Haroun !!!
 
+import { Col, Row } from "react-bootstrap/esm";
+import { Container } from "../../../components";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
@@ -9,7 +11,9 @@ import "./Footer.scss"
 function Footer() {
   return (
     <div className="footercover bg-cat mb-5 mb-md-0">
-      <section >
+      <Container>
+        <Row><Col xl={12}>
+        <section >
               {/* Section 1 section */}
         <Section1 />
       </section>
@@ -21,6 +25,9 @@ function Footer() {
                       {/* Section 3 section */}
         <Section3 />
         </section> 
+        </Col></Row>
+    
+        </Container>
     </div>
   );
 }

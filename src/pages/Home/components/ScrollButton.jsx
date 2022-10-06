@@ -1,16 +1,9 @@
 //ScrollButton by Dania Haroun !!!
 // ScrollButton will be used in All page
 // ScrollButton is a button that will take the user to Top of the page
-import {useEffect} from 'react';
 import svgg from'../images/topIcon.svg'; //top arrow image
 ////start of ScrollButton function and export it///
-
 export default function ScrollButton() {
-  // // useEffect hook 
-  // useEffect(() => {
-  //    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  // }, []);
-
   return (
     <div>
       <button className='bg-primary scroolbutton'

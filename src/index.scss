@@ -1,5 +1,16 @@
 
 //here is a scss for all project
+//import scss files :
+@import "../src/pages/Home/components/MobileNavbar/MobileMenu.scss";
+@import "pages/Home/Footer/Footer.scss";
+@import "./pages/Home/components/Section1/Section1.scss";
+@import "./pages/Home/components/Section2/Section2.scss";
+@import "./pages/Home/components/Section3/Section3LeftPart.scss";
+@import "./pages/Home/components/Section3/RightPart/TopSaveToday.scss";
+@import "./pages/Home/components/Cookies/Cookies.scss";
+@import "./pages/Home/components/ScrollButton.scss";
+@import "./pages/Home/components/Section4/Newsletter.scss";
+
 
 //these is my colors:
 $theme-colors: (

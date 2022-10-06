@@ -3,7 +3,6 @@
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Container } from "../../../../components";//my Container
 import { Col, Row } from "react-bootstrap";
 ////start of OurBestSellerSlider function and export it///
 
@@ -14,7 +13,6 @@ export default function OurBestSellerSlider() {
     <>
       <div>
         <div>
-          <Container>
             <div className="py-4">
                {/* there is one row with one col */}
               <Row>
@@ -247,7 +245,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li >
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -379,7 +377,7 @@ export default function OurBestSellerSlider() {
                                       tabindex="0"
                                     >
                                       <span className="cardname">
-                                        Good Life Refined Sunflower Oil
+                                        Good Life Sunflower Oil
                                       </span>
                                     </a>
                                     <span >1 L</span><br/>
@@ -827,7 +825,7 @@ export default function OurBestSellerSlider() {
                                           tabindex="0"
                                         >
                                           <span className="cardname">
-                                            Good Life Refined Sunflower Oil
+                                            Good Life Sunflower Oil
                                           </span>
                                         </a><br/>
                                         <span className="mt-1">1 L</span><br/>
@@ -952,7 +950,7 @@ export default function OurBestSellerSlider() {
                 </Col>
               </Row>
             </div>
-          </Container>
+          
         </div>
       </div>
     </>

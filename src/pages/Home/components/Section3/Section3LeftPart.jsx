@@ -1,12 +1,11 @@
 //Left Part of Section 3 from Home Page by Dania Haroun !!!
 // vertical section
-import Container from "../../../../components/Container";//my Container
 import { Col, Row } from "react-bootstrap";
 ////start of Section3LeftPart function///
 function Section3LeftPart() {
   return (
     <div >
-     <Container>
+
           <div className="gap-4 py-4">
             {/* here we have 5 row , one col in each row */}
             {/* first Row */}
@@ -441,7 +440,7 @@ function Section3LeftPart() {
             </div></Col></Row>
          
           </div>
-     </Container>
+   
       
     </div>
   );

@@ -56,13 +56,15 @@ a:hover{
     border-image-outset: initial;
     border-image-repeat: initial;
 }
-.lineundersection{
 
-    content: "";
- 
- 
-    border-bottom: 1px dashed rgba(74,85,104,0.3);
+ .main-footer {
+    border-top: 1px dashed #c1c1c1;
 }
+@media (max-width: 767px){
+ .main-footer {
+    border: none;
+    padding-top: 0;
+}}
   //////////////////////////Section 2/////////////////////////////
 
 .logoo {
@@ -78,13 +80,7 @@ svgg{
     display: block;
  
 }
-.lineundersection{
 
-    content: "";
- 
- 
-    border-bottom: 1px dashed rgba(74,85,104,0.3);
-}
 
 
 }

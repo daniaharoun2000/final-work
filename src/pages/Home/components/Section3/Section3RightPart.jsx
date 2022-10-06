@@ -2,7 +2,6 @@
 //here we will call multiple components to appear in this section , and these components are in (RightPart) folder 
 //These components are : CashBack ,Fiftypercentoffer,SummerProducts,SummerVEGETABLE,TopSaveToday 
 import TopSaveToday from './RightPart/TopSaveToday';
-import Container from "../../../../components/Container";
 import { Row, Col } from "react-bootstrap";
 import BowsebyCategoriesSlider from "../Slider/BowsebyCategoriesSlider";
 import Fiftypercentoffer from "./RightPart/Fiftypercentoffer";
@@ -25,7 +24,7 @@ function Section3RightPart() {
 
   return (
     <div >
-      <Container>
+     
                   {/* here we have a row with one col */}
 
         <Row>
@@ -45,7 +44,7 @@ function Section3RightPart() {
           </Col>
           </Row>
       
-      </Container>
+     
     </div>
   );
 }

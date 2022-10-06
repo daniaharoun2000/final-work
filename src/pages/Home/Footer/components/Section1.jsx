@@ -9,7 +9,7 @@ function Section1() {
   return (
     <div >
       <div>
-        <Container >
+        
           {/* this section will appear only on md &lg & xl & xxl  */}
           <div className="d-none d-sm-none d-md-block mt-5">
             {/* this section is devide into 2 divs , one of them will appear according to display size */}
@@ -18,7 +18,7 @@ function Section1() {
           <div className="service-contain">   
               <div >    
                 {/* here we have a row with 4 columns and in each column we have an img with text */}
-                       <Row className="lineundersection py-4">
+                       <Row className=" py-4">
                 <Col xxl={3} xl={3}>
                   <div className="align-items-center d-flex me-0">
                     <div >
@@ -127,7 +127,7 @@ function Section1() {
                     </div></div>
                   </div>
                 </Col> </Row>
-                <Row className="lineundersection py-4">
+                <Row className=" py-4">
                 <Col  xl={6} lg={6} md={6}>
                   <div >  
                   <div className="d-flex justify-content-start align-items-center">
@@ -168,7 +168,7 @@ function Section1() {
               </div>
            
           </div></div>
-        </Container>
+      
       </div>
     </div>
   );
