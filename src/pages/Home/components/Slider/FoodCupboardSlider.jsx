@@ -86,7 +86,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="/" tabindex="0">
+                              <a href="/" tabIndex="0">
                                 <h6 className="name">
                                   Fantasy Crunchy Choco Chip Cookies
                                 </h6>
@@ -113,7 +113,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="/" tabindex="0">
+                              <a href="/" tabIndex="0">
                                 <h6 className="name">
                                 Peanut Butter Bite Premium Butter Cookies 600 g
                                 </h6>
@@ -141,7 +141,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="/" tabindex="0">
+                              <a href="/" tabIndex="0">
                                 <h6 className="name">
                                 Yumitos Chilli Sprinkled Potato Chips 100 g
                                                         
@@ -169,7 +169,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="/" tabindex="0">
+                              <a href="/" tabIndex="0">
                                 <h6 className="name">
                                 Neu Farm Unpolished Desi Toor Dal 1 kg
                                 </h6>
@@ -196,7 +196,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="/" tabindex="0">
+                              <a href="/" tabIndex="0">
                                 <h6 className="name">
                                 Dark Chocalate
                                 </h6>

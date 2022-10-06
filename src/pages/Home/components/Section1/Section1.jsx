@@ -29,7 +29,6 @@ function Section1() {
                     for your health.
                   </p>
                   <button
-                    onClick="location.href = 'shop-left-sidebar.html';"
                     className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 
@@ -59,7 +58,6 @@ function Section1() {
                         We deliver organic vegetables &amp; fruits
                       </p>
                       <button
-                    onClick="location.href = 'shop-left-sidebar.html';"
                     className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 
@@ -84,7 +82,6 @@ function Section1() {
                         Start your daily shopping with some Organic food
                       </p>
                       <button
-                    onClick="location.href = 'shop-left-sidebar.html';"
                     className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 

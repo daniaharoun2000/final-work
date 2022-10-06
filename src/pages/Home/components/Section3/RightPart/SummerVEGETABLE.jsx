@@ -23,7 +23,6 @@ function SummerVEGETABLE() {
                                     <h5 className="lh-sm mx-auto mt-1  align-items-center justify-content-center d-flex text-aa">Save up to 5% OFF</h5>
                                   {/* button */}
                                     <button
-                    onClick="location.href = 'shop-left-sidebar.html';"
                     className="mt-2 btn bg-dd text-white m-auto"
                   >
                     Shop Now 

@@ -237,7 +237,6 @@ function Section3LeftPart() {
                     </h3>
                     <h3 className="fw-light h3section3">every hour</h3>
                     <button
-                      onClick="location.href = 'shop-left-sidebar.html';"
                       className="btn text-overflow-1 bg-dd text-white"
                     >
                       Shop Now
@@ -269,7 +268,6 @@ function Section3LeftPart() {
                     </h2>
                     <p className="mb-3 text-aa">Super Offer to 50% Off</p>
                     <button
-                      onClick="location.href = 'shop-left-sidebar.html';"
                       className="btn text-overflow-1 bg-dd text-white"
                     >
                       Shop Now

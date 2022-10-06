@@ -78,13 +78,13 @@ export default function FeaturedBlogSlider() {
                     <a
                              href="/"
                               className="category-box imgblog imghoveringin"
-                              tabindex="-1"
+                              tabIndex="-1"
                             > </a>
 
                             <a
                              href="/"
                               className="blog-detail"
-                              tabindex="0"
+                              tabIndex="0"
                             >
                               <h6>20 March, 2022</h6>
                               <h5>Fresh Vegetable Online</h5>
@@ -94,12 +94,12 @@ export default function FeaturedBlogSlider() {
                     <a
                              href="/"
                               className="category-box imgblog2 imghoveringin"
-                              tabindex="-1"
+                              tabIndex="-1"
                             > </a>
                             <a
                              href="/"
                               className="blog-detail"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <h6>10 April, 2022</h6>
                               <h5>Fresh Combo Fruit</h5>
@@ -109,12 +109,12 @@ export default function FeaturedBlogSlider() {
                      <a
                              href="/"
                               className="category-box imgblog3 imghoveringin"
-                              tabindex="-1"
+                              tabIndex="-1"
                             > </a>
                             <a
                              href="/"
                               className="blog-detail"
-                              tabindex="0"
+                              tabIndex="0"
                             >
                               <h6>10 April, 2022</h6>
                               <h5>Nuts to Eat for Better Health</h5>

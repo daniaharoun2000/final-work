@@ -72,7 +72,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>     <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
@@ -84,7 +84,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>     <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg"
@@ -96,7 +96,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>    <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg"
@@ -108,7 +108,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>        <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
@@ -120,7 +120,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>   <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
@@ -132,7 +132,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>   <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
@@ -144,7 +144,7 @@ export default function BowsebyCategoriesSlider() {
         <SwiperSlide>   <a
                              href="/"
                               className="category-box"
-                              tabindex="-1"
+                              tabIndex="-1"
                             >
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"

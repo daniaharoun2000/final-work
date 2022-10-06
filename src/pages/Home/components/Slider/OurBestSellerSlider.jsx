@@ -73,7 +73,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png"
@@ -87,7 +87,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Tuffets Whole Wheat Bread
@@ -107,7 +107,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png"
@@ -121,7 +121,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">Potato</span>
                                     </a>
@@ -139,7 +139,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png"
@@ -153,7 +153,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">Green Chilli</span>
                                     </a>
@@ -171,7 +171,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png"
@@ -185,7 +185,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Muffets Burger Bun
@@ -205,7 +205,7 @@ export default function OurBestSellerSlider() {
                       <SwiperSlide>
                         <div
                           className="slick-slide slick-active"
-                          tabindex="0"
+                          tabIndex="0"
                           data-slick-index="1"
                           aria-hidden="false"
                         >
@@ -215,7 +215,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png"
@@ -229,7 +229,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Tuffets Britannia Cheezza
@@ -249,7 +249,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png"
@@ -263,7 +263,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Long Life Toned Milk
@@ -283,7 +283,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png"
@@ -297,7 +297,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Organic Tomato
@@ -317,7 +317,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png"
@@ -331,7 +331,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">Organic Jam</span>
                                     </a>
@@ -349,7 +349,7 @@ export default function OurBestSellerSlider() {
                       <SwiperSlide>
                         <div
                           className="slick-slide slick-active"
-                          tabindex="0"
+                          tabIndex="0"
                           data-slick-index="2"
                           aria-hidden="false"
                         >
@@ -359,7 +359,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png"
@@ -373,7 +373,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Good Life Sunflower Oil
@@ -393,7 +393,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
@@ -408,7 +408,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Good Life Raw Peanuts
@@ -428,7 +428,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
@@ -443,7 +443,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         TufBest Farms Moong Dal
@@ -463,7 +463,7 @@ export default function OurBestSellerSlider() {
                                 <a
                                   href="/"
                                   className="offer-image"
-                                  tabindex="0"
+                                  tabIndex="0"
                                 >
                                   <img
                                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png"
@@ -477,7 +477,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="text-title"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <span className="cardname">
                                         Frooti Mango Drink
@@ -523,7 +523,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png"
@@ -537,7 +537,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Tuffets Whole Wheat Bread
@@ -557,7 +557,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png"
@@ -571,7 +571,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">Potato</span>
                                         </a><br/>
@@ -589,7 +589,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png"
@@ -603,7 +603,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Green Chilli
@@ -623,7 +623,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png"
@@ -637,7 +637,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Muffets Burger Bun
@@ -664,7 +664,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png"
@@ -678,7 +678,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Tuffets Britannia Cheezza
@@ -698,7 +698,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png"
@@ -712,7 +712,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Long Life Toned Milk
@@ -732,7 +732,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png"
@@ -746,7 +746,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Organic Tomato
@@ -766,7 +766,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png"
@@ -780,7 +780,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Organic Jam
@@ -807,7 +807,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png"
@@ -821,7 +821,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Good Life Sunflower Oil
@@ -841,7 +841,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
@@ -856,7 +856,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Good Life Raw Peanuts
@@ -876,7 +876,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
@@ -891,7 +891,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             TufBest Farms Moong Dal
@@ -911,7 +911,7 @@ export default function OurBestSellerSlider() {
                                     <a
                                       href="/"
                                       className="offer-image"
-                                      tabindex="0"
+                                      tabIndex="0"
                                     >
                                       <img
                                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png"
@@ -925,7 +925,7 @@ export default function OurBestSellerSlider() {
                                         <a
                                           href="/"
                                           className="text-title"
-                                          tabindex="0"
+                                          tabIndex="0"
                                         >
                                           <span className="cardname">
                                             Frooti Mango Drink
