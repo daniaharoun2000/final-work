@@ -7,9 +7,9 @@ function Newsletter() {
   return (
     <div >
    <Container>
-    <div className="py-4">
+    <div>
       {/* here is a Row with an one Col */}
-    <Row>
+    <Row className="pb-5">
       {/* this Col has background image with some texts */}
       <Col xl={12}>
                         <div className="newsletterbg position-relative d-flex justify-content-center align-items-center" >

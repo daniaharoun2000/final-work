@@ -7,14 +7,14 @@ import { Col, Row } from "react-bootstrap";
 function SummerProducts() {
   return (
     <div>
-        <div className="py-4">
+        <div>
                   {/* here is one row with 2 cols */}
 
-          <Row>
+          <Row className="pb-5 gy-3">
                            {/* each col has an img as a bg with text */}
 
             <Col xxl={8} xl={12} lg={8} md={7} sm={12}>
-              <div className="position-relative blur-up py-1">
+              <div className="position-relative blur-up">
                             {/* img */}
 
                 <img
@@ -46,7 +46,7 @@ function SummerProducts() {
                            {/* each col has an img as a bg with text */}
 
             <Col xxl={4} xl={12} lg={4} md={5} sm={12}>
-              <div className="position-relative blur-up py-2 ml-1">
+              <div className="position-relative blur-up ml-1">
                     {/* img */}
 
                   <img

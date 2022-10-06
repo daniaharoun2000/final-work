@@ -8,7 +8,7 @@ function Fiftypercentoffer() {
   return (
     <div>
         {/* here is one row with 2 cols */}
-        <Row>       
+        <Row className="pb-5">       
                {/* each col has an img as a bg with text */}
 
           <Col xl={6} md={6}>

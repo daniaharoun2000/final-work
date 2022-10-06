@@ -11,15 +11,14 @@ export default function OurBestSellerSlider() {
     
   return (
     <>
-      <div>
-        <div>
-            <div className="py-4">
+     
+            <div>
                {/* there is one row with one col */}
-              <Row>
+              <Row className="pb-5">
                 <Col xl={12}>
                                                                    {/*Our Best Seller Title */}
 
-                  <div className="title d-block py-4">
+                  <div className="title d-block">
                     <div>
                       <h2>Our best Seller</h2>
                       <span className="title-leaf">
@@ -951,8 +950,7 @@ export default function OurBestSellerSlider() {
               </Row>
             </div>
           
-        </div>
-      </div>
+        
     </>
   );
 }

@@ -8,10 +8,10 @@ import { Col, Row } from "react-bootstrap";
 function SummerVEGETABLE() {
   return (
     <div >
-   <div className="py-4">
+
             {/* here is a row with one col */}
 
-    <Row>
+    <Row className="pb-5">
       <Col xl={12}>
         {/* img */}
                         <div className="imgsummerveg position-relative d-flex justify-content-center align-items-center" >
@@ -30,7 +30,7 @@ function SummerVEGETABLE() {
                   </button>    </div>
                             </div>
                
-                    </div></Col></Row></div>
+                    </div></Col></Row>
    </div>
   );
 }

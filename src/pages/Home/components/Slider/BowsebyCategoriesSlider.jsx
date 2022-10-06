@@ -10,9 +10,9 @@ export default function BowsebyCategoriesSlider() {
   return (
     <>
         <div>
-      <div>
+   
       
-          <div  className="py-4">
+          <div className="pb-5">
             {/* there is one row with one col */}
           <Row>
             <Col xl={12}>
@@ -162,7 +162,7 @@ export default function BowsebyCategoriesSlider() {
 
 </div>
       </Swiper></Col></Row>
-      </div></div></div>
+      </div></div>
     </>
   );
 

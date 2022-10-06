@@ -12,15 +12,15 @@ export default function FoodCupboardSlider() {
   return (
     <>
       <div>
-        <div>
-            <div className="py-4">
+      
+            <div>
                                         {/* there is one row with one col */}
 
-              <Row>
+              <Row className="pb-5">
                 <Col xl={12} >
                                                  {/* Food Cupboard Swiper Title */}
 
-                  <div className="title title-flex py-4">
+                  <div className="title title-flex">
                     <div>
                       <h2>Food Cupboard</h2>
 
@@ -226,7 +226,7 @@ export default function FoodCupboardSlider() {
               </Row>
             </div>
         </div>
-      </div>
+     
     </>
   );
 }

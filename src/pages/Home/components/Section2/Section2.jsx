@@ -8,7 +8,7 @@ function Section2() {
   return (
     <div >
       <Container>
-          <div className="py-4">
+          <div className="pb-5">
              {/* here we have row with 4 columns m each col has an img with text */}
             <Row className="g-sm-4 g-3">
               <Col xxl={3} lg={4} sm={6} className="firstcol">

@@ -1,24 +1,23 @@
 //Section 1 from Footer by Dania Haroun !!!
 ///Website Features
-import Container from "../../../../components/Container";
 import {Row,Col} from "react-bootstrap";
 
 //// start of Section 1 from footer ///
 
 function Section1() {
   return (
-    <div >
-      <div>
+    <div>
+    
         
           {/* this section will appear only on md &lg & xl & xxl  */}
-          <div className="d-none d-sm-none d-md-block mt-5">
+          <div className="d-none d-sm-none d-md-block p-2 ">
             {/* this section is devide into 2 divs , one of them will appear according to display size */}
             {/* the first div will appear in xxl only */}
-          <div className="d-xxl-block d-none py-4">
+          <div className="d-xxl-block d-none ">
           <div className="service-contain">   
               <div >    
                 {/* here we have a row with 4 columns and in each column we have an img with text */}
-                       <Row className=" py-4">
+                       <Row className="py-4">
                 <Col xxl={3} xl={3}>
                   <div className="align-items-center d-flex me-0">
                     <div >
@@ -87,7 +86,7 @@ function Section1() {
             </div>
           </div>
             {/* the 2nd div will appear in xl & lg only */}
-          <div className="d-lg-block d-xl-block d-xxl-none py-4">
+          <div className="d-lg-block d-xl-block d-xxl-none ">
           
               <div  > 
    {/* here we have 2 rows with 2 columns in each of them  and in each column we have an img with text */}
@@ -127,7 +126,7 @@ function Section1() {
                     </div></div>
                   </div>
                 </Col> </Row>
-                <Row className=" py-4">
+                <Row className=" mt-2">
                 <Col  xl={6} lg={6} md={6}>
                   <div >  
                   <div className="d-flex justify-content-start align-items-center">
@@ -169,7 +168,7 @@ function Section1() {
            
           </div></div>
       
-      </div>
+      
     </div>
   );
 }

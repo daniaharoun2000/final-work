@@ -7,8 +7,8 @@ function CashBack() {
   return (
     <div >
         {/* here is a row with one col */}
-        <Row>
-          <Col xl={12} className="py-4">
+        <Row className="pb-5">
+          <Col xl={12}>
             <div className="imgbootstrap position-relative cashboxx">
         
 {/* imgbootstrap is an img background */}

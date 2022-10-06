@@ -10,15 +10,15 @@ export default function FeaturedBlogSlider() {
   return (
     <>
       <div>
-        <div>
-            <div className="py-4">
+        <div className="pb-5">
+            <div>
                           {/* there is one row with one col */}
 
               <Row>
                 <Col xl={12}>
                                {/* Featured Blog Swiper Title */}
 
-                <div className="title title-flex py-4">
+                <div className="title title-flex">
               <div>
                 <h2>Featured Blog</h2>
 

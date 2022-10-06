@@ -8,7 +8,7 @@ function Section1() {
   return (
     <div className="align-items-center">
       <Container>
-        <div className="pt-1">
+        <div className="pt-1 pb-4">
                     {/* here we have row with 2 columns */}
         <Row>
           {/* the first col has an img with text */}

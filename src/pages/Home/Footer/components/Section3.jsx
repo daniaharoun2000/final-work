@@ -1,6 +1,5 @@
 ///Section 3 from Footer by Dania Haroun !!!
 //Last Section  
-import Container from "../../../../components/Container";
 import {Row,Col} from "react-bootstrap";
 
 //// start of Section 3 from footer ///
@@ -10,7 +9,7 @@ function Section3() {
       
          {/* this section is devide into 2 divs , one of them will appear according to display size */}
             {/* the first div will appear in lg only */}
-        <div className="d-none d-lg-block d-sm-none  py-4">
+        <div className="d-none d-lg-block d-sm-none py-4">
                     {/* here is 1 Row , with 3 columns */}
 
         <Row className="align-items-center d-flex justify-content-start">
@@ -106,14 +105,14 @@ function Section3() {
         <Row className="justify-content-center"> 
          <Col md={12} xs={12} xl={12}>
             <div className="reserve d-flex align-items-center justify-content-center">
-              <h6 className="text-content mt-2">
+              <h6 className="text-content ">
                 ©2022 Fastkart All rights reserved
               </h6>
             </div>
           </Col></Row>
           <Row className="justify-content-center"> 
            <Col md={12} xs={12} xl={12}>
-            <div className="d-flex align-items-center justify-content-center mt-2">
+            <div className="d-flex align-items-center justify-content-center ">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
                 alt=""
@@ -122,7 +121,7 @@ function Section3() {
           </Col></Row>
           <Row className="justify-content-end">   
           <Col md={12} xs={12} xl={12}>
-            <div className="d-flex align-items-center justify-content-center mt-2 mb-5">
+            <div className="d-flex align-items-center justify-content-center  mb-5">
               <h6 className="text-content">Stay connected :</h6>
               <ul >
                 <li>

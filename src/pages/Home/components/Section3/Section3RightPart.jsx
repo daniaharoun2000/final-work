@@ -23,13 +23,13 @@ import "./RightPart/SummerVEGETABLE.scss";
 function Section3RightPart() {
 
   return (
-    <div >
+    <div>
      
                   {/* here we have a row with one col */}
 
         <Row>
           <Col xl={12}>
-        <div className='py-2'>
+        <div>
           {/* here we will call multiple components to appear in this section , and these components are in (RightPart) folder  */}
         <TopSaveToday />
         <BowsebyCategoriesSlider />

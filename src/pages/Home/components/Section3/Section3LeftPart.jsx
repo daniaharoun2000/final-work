@@ -6,7 +6,7 @@ function Section3LeftPart() {
   return (
     <div >
 
-          <div className="gap-4 py-4">
+          <div >
             {/* here we have 5 row , one col in each row */}
             {/* first Row */}
           <Row>

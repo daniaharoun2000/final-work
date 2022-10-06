@@ -18,7 +18,7 @@ function TopSaveToday() {
     <div >
       
         {/* there is 2 rows */}
-        <div className='py-2'>
+        <div className="pb-5">
           {/* the first row has 2 cols */}
       <Row>
         {/* the first col is a  text */}
@@ -73,7 +73,7 @@ function TopSaveToday() {
         {/* 2nd row */}
                   {/* react gutters from bootstrap */}
 {/* in xxl -> show 4 cols  , in xl -> show 3 cols ,in lg -> show 3 cols , in md -> show 3 cols ,in sm -> show 3 cols ,  in xs -> show 2 cols*/}
-        <Row className="row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2">
+        <Row className="row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2 me-0 ms-0">
               {/* there is 10 cols */}
           <Col className="p-3 border cardhovering">
             {/* in every col there is an img with text with (Rating & AddButton) components */}
