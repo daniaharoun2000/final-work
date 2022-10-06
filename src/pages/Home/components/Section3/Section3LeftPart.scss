@@ -114,65 +114,14 @@
     
 
 }
-// this is multi line styling for multi  screen sizes
-@media (max-width:2560px) {
-
-    .trendinglist li+li:after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        right: 0;
-        border-bottom: 1px dashed rgba(74,85,104,0.3);
-        width: 180px;
-    }
-    
+// this is trendinglist li+li:after  styling for multi screen sizes
+.trendinglist li+li:after {
+    content: "";
+    position: absolute;
+    top: -28px;
+    right: 0;
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
+    width: calc(100% - 80px);
 }
-@media (max-width: 1700px) {
 
-    .trendinglist li+li:after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        right: 0;
-        border-bottom: 1px dashed rgba(74,85,104,0.3);
-        width: 200px;
-    }
-    
-}
-@media (max-width: 1699px) {
-
-    .trendinglist li+li:after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        right: 0;
-        border-bottom: 1px dashed rgba(74,85,104,0.3);
-        width: 138px;
-    }
-    
-}
- @media (max-width: 1399px) {
-
-    .trendinglist li+li:after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        right: 0;
-        border-bottom: 1px dashed rgba(74,85,104,0.3);
-        width: 196px;
-    }
-    
-}
- @media (max-width: 1199px) {
-
-    .trendinglist li+li:after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        right: 0;
-        border-bottom: 1px dashed rgba(74,85,104,0.3);
-        width: 165px;
-    }
-    
-}
 }
