@@ -7,7 +7,7 @@ function Section3LeftPart() {
   return (
     <div >
      <Container>
-          <div className="gap-4 py-4 ">
+          <div className="gap-4 py-4">
             {/* here we have 5 row , one col in each row */}
             {/* first Row */}
           <Row>
@@ -17,16 +17,15 @@ function Section3LeftPart() {
               {/* ul (list) and (li) elements , in each li elements there is an img and text */}
               <ul className="linesection3left">
                 <li>
-                  <div className="category-list ">
+                  <div className="category-list">
                     <img
                       src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
-                      className="  "
-                      alt=""
+                   alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Vegetables &amp; Fruit
                       </a>
@@ -37,13 +36,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
-                      className=" "
-                      alt=""
+                    alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Beverages
                       </a>
@@ -54,13 +52,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Meats &amp; Seafood
                       </a>
@@ -71,13 +68,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Breakfast &amp; Dairy
                       </a>
@@ -88,13 +84,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Frozen Foods
                       </a>
@@ -105,13 +100,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg"
-                      className=" "
                       alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Biscuits &amp; Snacks
                       </a>
@@ -122,13 +116,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                      className=" "
                       alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Grocery &amp; Staples
                       </a>
@@ -139,13 +132,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="	https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Wines &amp; Alcohol Drinks
                       </a>
@@ -156,13 +148,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Milk &amp; Dairies
                       </a>
@@ -173,13 +164,12 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg"
-                      className=" "
-                      alt=""
+                     alt=""
                     />
                     <h5>
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Pet Foods
                       </a>
@@ -195,7 +185,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Value of the Day
                       </a>
@@ -207,7 +197,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         Top 50 Offers
                       </a>
@@ -219,7 +209,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="/"
-                        className="categorytext  "
+                        className="categorytext"
                       >
                         New Arrivals
                       </a>
@@ -232,16 +222,16 @@ function Section3LeftPart() {
 
             <Row>
               <Col xl={12}>   <div className="ratio_156 mt-5">
-              <div className="home-contain  bg-size ">
+              <div className="home-contain bg-size">
                 {/* here we have an img as a background , and a text above it */}
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/8.jpg"
-                  className="bg-img  lazyload"
+                  className="bg-img lazyload"
                   alt=""
                 />
-                <div className="home-detail mt-5 mx-5 ">
+                <div className="home-detail mt-5 mx-5">
                   <div>
-                    <h6 className="text-yellow ">Seafood</h6>
+                    <h6 className="text-yellow">Seafood</h6>
                     <h3 className="text-uppercase fw-normal">
                       <span className="theme-color fw-bold">Freshes</span>
                       Products
@@ -249,7 +239,7 @@ function Section3LeftPart() {
                     <h3 className="fw-light h3section3">every hour</h3>
                     <button
                       onClick="location.href = 'shop-left-sidebar.html';"
-                      className="btn text-overflow-1 bg-dd text-white "
+                      className="btn text-overflow-1 bg-dd text-white"
                     >
                       Shop Now
                     </button>
@@ -261,19 +251,18 @@ function Section3LeftPart() {
                      {/* 3rd Row */}
 
             <Row>
-              <Col xl={12}> <div className=" mt-5">
+              <Col xl={12}> <div className="mt-5">
                                 {/* here we have an img as a background , and a text above it */}
 
-              <div className="home-contain ">
+              <div className="home-contain">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/11.jpg"
-                  className=" "
-                  alt=""
+                 alt=""
                 />
-                <div className="home-detail mt-5 mx-5 ">
+                <div className="home-detail mt-5 mx-5">
                   <div>
-                    <h4 className="text-yellow  ">Organic</h4>
-                    <h2 className="text-uppercase fw-normal mb-0 text-primary ">
+                    <h4 className="text-yellow">Organic</h4>
+                    <h2 className="text-uppercase fw-normal mb-0 text-primary">
                       fresh
                     </h2>
                     <h2 className="text-uppercase fw-normal text-title">
@@ -282,7 +271,7 @@ function Section3LeftPart() {
                     <p className="mb-3 text-aa">Super Offer to 50% Off</p>
                     <button
                       onClick="location.href = 'shop-left-sidebar.html';"
-                      className="btn text-overflow-1 bg-dd text-white "
+                      className="btn text-overflow-1 bg-dd text-white"
                     >
                       Shop Now
                     </button>
@@ -297,43 +286,17 @@ function Section3LeftPart() {
               <Col xl={12}> <div className="mt-5">
                                 {/* here we have ul (list)  and (li) elements */}
 
-              <div className="category-menu ">
+              <div className="category-menu">
                 <h3>Treanding Products</h3>
 
 {/* ul with li , each li has an img with text */}
-                <ul className="trendinglist border-0 p-0 d-block ">
+                <ul className="trendinglist border-0 p-0 d-block">
                   <li>
-                    <div className="offer-product ">
-                      <a href="/" className="offer-image">
-                        <img
-                          src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/23.png"
-                          className=" me-1 imghovering"
-                          alt=""
-                        />
-                      </a>
-
-                      <div className="offer-detail ">
-                        <div>
-                          <a href="/" className="text-title">
-                            <h6 className="  text-overflow-1">
-                              Meatigo Premium Goat Curry
-                            </h6>
-                          </a>
-                          <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary  mb-2">
-                            $ 70.00
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li className="mt-4 ">
                     <div className="offer-product">
                       <a href="/" className="offer-image">
                         <img
-                          src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/24.png"
-                          className="me-1 imghovering "
+                          src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/23.png"
+                          className="me-1 imghovering"
                           alt=""
                         />
                       </a>
@@ -341,7 +304,33 @@ function Section3LeftPart() {
                       <div className="offer-detail">
                         <div>
                           <a href="/" className="text-title">
-                            <h6 className=" text-overflow-1 ">
+                            <h6 className="text-overflow-1">
+                              Meatigo Premium Goat Curry
+                            </h6>
+                          </a>
+                          <span className="text-aa">450 G</span>
+                          <h6 className="price text-primary mb-2">
+                            $ 70.00
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li className="mt-4">
+                    <div className="offer-product">
+                      <a href="/" className="offer-image">
+                        <img
+                          src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/24.png"
+                          className="me-1 imghovering"
+                          alt=""
+                        />
+                      </a>
+
+                      <div className="offer-detail">
+                        <div>
+                          <a href="/" className="text-title">
+                            <h6 className="text-overflow-1">
                               Dates Medjoul Premium Imported
                             </h6>
                           </a>
@@ -354,38 +343,12 @@ function Section3LeftPart() {
                     </div>
                   </li>
 
-                  <li className="mt-4 ">
+                  <li className="mt-4">
                     <div className="offer-product">
                       <a href="/" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/25.png"
-                          className="me-1 imghovering "
-                          alt=""
-                        />
-                      </a>
-
-                      <div className="offer-detail">
-                        <div>
-                          <a href="/" className="text-title ">
-                            <h6 className=" text-overflow-1">
-                              Good Life Walnut Kernels
-                            </h6>
-                          </a>
-                          <span className="text-aa">200 G</span>
-                          <h6 className="price text-primary mb-2  pb-1">
-                            $ 52.00
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li className="mb-0 mt-4 ">
-                    <div className="offer-product">
-                      <a href="/" className="offer-image">
-                        <img
-                          src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/26.png"
-                          className="me-1  imghovering "
+                          className="me-1 imghovering"
                           alt=""
                         />
                       </a>
@@ -393,12 +356,38 @@ function Section3LeftPart() {
                       <div className="offer-detail">
                         <div>
                           <a href="/" className="text-title">
-                            <h6 className=" text-overflow-1">
+                            <h6 className="text-overflow-1">
+                              Good Life Walnut Kernels
+                            </h6>
+                          </a>
+                          <span className="text-aa">200 G</span>
+                          <h6 className="price text-primary mb-2 pb-1">
+                            $ 52.00
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li className="mb-0 mt-4">
+                    <div className="offer-product">
+                      <a href="/" className="offer-image">
+                        <img
+                          src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/26.png"
+                          className="me-1 imghovering"
+                          alt=""
+                        />
+                      </a>
+
+                      <div className="offer-detail">
+                        <div>
+                          <a href="/" className="text-title">
+                            <h6 className="text-overflow-1">
                               Apple Red Premium Imported
                             </h6>
                           </a>
                           <span className="text-aa">1 KG</span>
-                          <h6 className="price text-primary mb-2  pb-1">
+                          <h6 className="price text-primary mb-2 pb-1">
                             $ 80.00
                           </h6>
                         </div>
@@ -433,7 +422,7 @@ function Section3LeftPart() {
                   </div>
                   <div className="d-flex justify-content-center align-items-center p-2">
                   
-                  <div className="review-profile ">  
+                  <div className="review-profile">  
        {/* review-image */}
                   <div className="review-image px-1">
                       <img

@@ -13,7 +13,7 @@ export default function BowsebyCategoriesSlider() {
         <div>
       <div>
         <Container>
-          <div  className=" py-4">
+          <div  className="py-4">
             {/* there is one row with one col */}
           <Row>
             <Col xl={12}>
@@ -25,7 +25,7 @@ export default function BowsebyCategoriesSlider() {
                 <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width" alt="browsebycategories"
+                className="icon-width" alt="browsebycategories"
               />
             </span>
                 <p>Top Categories Of The Week</p>

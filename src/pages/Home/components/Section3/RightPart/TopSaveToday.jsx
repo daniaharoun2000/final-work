@@ -32,7 +32,7 @@ function TopSaveToday() {
             <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width" alt="img"
+                className="icon-width" alt="img"
               />
             </span>
            
@@ -47,8 +47,8 @@ function TopSaveToday() {
      
                {/* the 2nd col is an  Expires box */}
 
-          <Col xxl={6} xl={6} xs={12} md={12}  className="d-flex justify-content-end mb-2 ">
-            <div className=" align-items-center  justify-content-center d-flex bg-dd text-badge border border-light rounded timeboxsection3 ">
+          <Col xxl={6} xl={6} xs={12} md={12}  className="d-flex justify-content-end mb-2">
+            <div className="align-items-center justify-content-center d-flex bg-dd text-badge border border-light rounded timeboxsection3">
             {/* clock svg */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,13 +58,13 @@ function TopSaveToday() {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="timingsvg mx-2 "
+                className="timingsvg mx-2"
               >
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
               </svg>
               {/* text */}
-              <span className="  name align-items-center justify-content-center d-flex">Expires in :</span>
+              <span className="name align-items-center justify-content-center d-flex">Expires in :</span>
 {/* CountdownTimer component , it is about calculating the expire time */}
 {/* dateTimeAfter333Days = NOW_IN_MS + THREE_DAYS_IN_MS; */}
               <CountdownTimer targetDate={dateTimeAfter333Days} />
@@ -74,13 +74,13 @@ function TopSaveToday() {
         {/* 2nd row */}
                   {/* react gutters from bootstrap */}
 {/* in xxl -> show 4 cols  , in xl -> show 3 cols ,in lg -> show 3 cols , in md -> show 3 cols ,in sm -> show 3 cols ,  in xs -> show 2 cols*/}
-        <Row className=" row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2">
+        <Row className="row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2">
               {/* there is 10 cols */}
-          <Col className="p-3 border cardhovering  ">
+          <Col className="p-3 border cardhovering">
             {/* in every col there is an img with text with (Rating & AddButton) components */}
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
-              className="w-100  margintoptodayimage ml-2 mr-2 imghovering "
+              className="w-100 margintoptodayimage ml-2 mr-2 imghovering"
               alt=""
             />
 
@@ -93,18 +93,18 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
               {/* I called (Rating & AddButton) components  */}
               <Rating />
             </div>
            <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                         {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/3.png"
-              className="w-100  margintoptodayimage  imghovering  "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -118,19 +118,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2 ">
+            <div className="mt-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                         {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/5.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -144,14 +144,14 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering position-relative ">
+          <Col className="p-3 border cardhovering position-relative">
                         {/* in every col there is an img with text with (Rating & AddButton) components */}
 
           <div className="label-tag">
@@ -160,7 +160,7 @@ function TopSaveToday() {
             <div>
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/7.png"
-                className="w-100  margintoptodayimage  imghovering  topsavetodayimages2"
+                className="w-100 margintoptodayimage imghovering topsavetodayimages2"
                 alt=""
               />
             </div>
@@ -174,19 +174,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                                     {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/2.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -199,7 +199,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                             {/* I called (Rating & AddButton) components  */}
 
               <Rating />
@@ -215,7 +215,7 @@ function TopSaveToday() {
             <div>
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/4.png"
-                className="w-100  margintoptodayimage  imghovering "
+                className="w-100 margintoptodayimage imghovering"
                 alt=""
               />
             </div>
@@ -231,19 +231,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                                     {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/6.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -256,19 +256,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                                     {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/9.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -281,19 +281,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                                     {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/8.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -307,19 +307,19 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border cardhovering ">
+          <Col className="p-3 border cardhovering">
                                     {/* in every col there is an img with text with (Rating & AddButton) components */}
 
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/10.png"
-              className="w-100  margintoptodayimage  imghovering "
+              className="w-100 margintoptodayimage imghovering"
               alt=""
             />
 
@@ -333,7 +333,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className=" mt-2">
+            <div className="mt-2">
                                           {/* I called (Rating & AddButton) components  */}
 
               <Rating />

@@ -13,21 +13,21 @@ export default function FeaturedBlogSlider() {
       <div>
         <div>
           <Container>
-            <div className=" py-4">
+            <div className="py-4">
                           {/* there is one row with one col */}
 
               <Row>
                 <Col xl={12}>
                                {/* Featured Blog Swiper Title */}
 
-                <div className="title title-flex py-4 ">
+                <div className="title title-flex py-4">
               <div>
                 <h2>Featured Blog</h2>
 
                 <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width" alt="featuredblog"
+                className="icon-width" alt="featuredblog"
               />
             </span>
                 <p>A virtual assistant collects the products from your list</p>

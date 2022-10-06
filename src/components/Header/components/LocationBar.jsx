@@ -15,11 +15,11 @@ function LocationBar() {
 
   return (
     // here I used 2 buttons , each one of them work in specific d size , so the user will just see one of them according to display size
-   <div className="  text-white align-items-center locationbox p-1  ">
-       <Button onClick={handleShow} className="d-xl-none w-100 justify-content-center   " variant="badge">
+   <div className="text-white align-items-center locationbox p-1">
+       <Button onClick={handleShow} className="d-xl-none w-100 justify-content-center" variant="badge">
                 {/* location svg (icon): */}
 
-<span className=" pg-gg ">
+<span className="pg-gg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -30,7 +30,7 @@ function LocationBar() {
             stroke-width="2"
             stroke-linecap="round"
             strokeLinejoin="round"
-            className=" text-aa rounded-3 border border-white "
+            className="text-aa rounded-3 border border-white"
           >
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
             <circle cx="12" cy="10" r="3"></circle>
@@ -46,7 +46,7 @@ function LocationBar() {
       >
                 {/* location svg (icon): */}
 
-        <span className=" py-2  pg-gg ">
+        <span className="py-2 pg-gg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -57,17 +57,17 @@ function LocationBar() {
             stroke-width="2"
             stroke-linecap="round"
             strokeLinejoin="round"
-            className=" text-aa rounded-3 border border-white "
+            className="text-aa rounded-3 border border-white"
           >
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
         </span>
-        <span className="text-primary px-2 align-items-center  ">
+        <span className="text-primary px-2 align-items-center">
           Your Location
         </span>
         <span>
-          <img src={svgg} className="  text-aa angleicon" alt="img"/>
+          <img src={svgg} className="text-aa angleicon" alt="img"/>
         </span>
       </Button>
 
@@ -99,7 +99,7 @@ function LocationBar() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    className=" bg-gg"
+                    className="bg-gg"
                   >
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

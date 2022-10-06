@@ -10,7 +10,7 @@ function Section3() {
       <Container>
          {/* this section is devide into 2 divs , one of them will appear according to display size */}
             {/* the first div will appear in lg only */}
-        <div className="  d-none d-lg-block d-sm-none  py-4">
+        <div className="d-none d-lg-block d-sm-none  py-4">
                     {/* here is 1 Row , with 3 columns */}
 
         <Row className="align-items-center d-flex justify-content-start">
@@ -23,17 +23,16 @@ function Section3() {
             </div>
           </Col>
           <Col xs={4}>
-            <div className=" align-items-center d-flex justify-content-center">
+            <div className="align-items-center d-flex justify-content-center">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
-
-                alt=""
+ alt=""
               />
             </div>
           </Col>
           <Col xs={4}>
-            <div className=" d-flex align-items-center justify-content-end">
-              <h6 className="text-content m-0 ">Stay connected :</h6>
+            <div className="d-flex align-items-center justify-content-end">
+              <h6 className="text-content m-0">Stay connected :</h6>
               <ul>
                 <li >
                   <a href="https://www.facebook.com/" target="_blank">
@@ -102,30 +101,29 @@ function Section3() {
         </Row></div>
                     {/* the 2nd div will appear in md & xl & xxl only */}
 
-        <div className="  d-md-block d-lg-none  py-4 align-items-center ">
+        <div className="d-md-block d-lg-none py-4 align-items-center">
           {/* here is 3 Rows , in each row ther is one column */}
-        <Row className=" justify-content-center "> 
+        <Row className="justify-content-center"> 
          <Col md={12} xs={12} xl={12}>
             <div className="reserve d-flex align-items-center justify-content-center">
-              <h6 className="text-content  mt-2">
+              <h6 className="text-content mt-2">
                 ©2022 Fastkart All rights reserved
               </h6>
             </div>
           </Col></Row>
-          <Row className="justify-content-center "> 
+          <Row className="justify-content-center"> 
            <Col md={12} xs={12} xl={12}>
-            <div className=" d-flex align-items-center justify-content-center  mt-2">
+            <div className="d-flex align-items-center justify-content-center mt-2">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
-             
                 alt=""
               />
             </div>
           </Col></Row>
-          <Row className="justify-content-end ">   
+          <Row className="justify-content-end">   
           <Col md={12} xs={12} xl={12}>
-            <div className=" d-flex align-items-center justify-content-center  mt-2 mb-5">
-              <h6 className="text-content ">Stay connected :</h6>
+            <div className="d-flex align-items-center justify-content-center mt-2 mb-5">
+              <h6 className="text-content">Stay connected :</h6>
               <ul >
                 <li>
                   <a href="https://www.facebook.com/" target="_blank">

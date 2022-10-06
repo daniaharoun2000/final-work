@@ -20,7 +20,7 @@ function Cookies() {
         <Row>
           <Col xl={12}>
             <div>
-              <div className="cookie-box ">
+              <div className="cookie-box">
                 <div className="cookie-image align-items-center justify-content-center d-flex">
                                   {/* cookie img */}
 
@@ -42,13 +42,13 @@ function Cookies() {
 {/* cookie buttons */}
               <div className="Button-group align-items-center justify-content-center d-flex">
                 {/*  Privacy Policy  Button*/}
-                <Button className="cookiesbutton  align-items-center justify-content-center d-flex bg-badge text-dania">
+                <Button className="cookiesbutton align-items-center justify-content-center d-flex bg-badge text-dania">
                   Privacy Policy
                 </Button>
                                 {/*  OK  Button*/}
 {/* on click on (OK Button) the setshowcookiesbox will equal false so the box will be hidden */}
                 <Button
-                  className="cookiesbutton   align-items-center justify-content-center d-flex bg-primary text-badge"
+                  className="cookiesbutton align-items-center justify-content-center d-flex bg-primary text-badge"
                   onClick={() => setshowcookiesbox(false)}
                 >
                   OK

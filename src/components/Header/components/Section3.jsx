@@ -16,10 +16,10 @@ function Section3() {
   return (
     <div className="bg-white">
       {/* this section will appear on lg &xl &xxl only */}
-      <div className="d-none d-lg-block ">
+      <div className="d-none d-lg-block">
         <Container>
          
-          <Row className="align-items-center justify-content-between  pt-3 ">
+          <Row className="align-items-center justify-content-between pt-3">
              {/* This section is divided into three columns */}
         {/* the first column contains a Dropdown(All Categories dropdown) from bootstrap that has a Dropdown Menue that has 3 Dropdown items   */}
             <Col xl={2} md={3}><div className="d-flex justify-content-start">
@@ -27,7 +27,7 @@ function Section3() {
                 <Dropdown.Toggle
                   variant="primary"
                   id="dropdown-one"
-                  className="AllCategories align-items-center justify-content-center d-flex "
+                  className="AllCategories align-items-center justify-content-center d-flex"
                 >
                       <div className="d-flex justify-content-center align-items-center p-1">
                         {/* this div for lines icon */}
@@ -43,7 +43,7 @@ function Section3() {
                     stroke-width="2"
                     stroke-linecap="round"
                     strokeLinejoin="round"
-                    className="AllCategoriesIcon "
+                    className="AllCategoriesIcon"
                   >
                     <line x1="17" y1="10" x2="3" y2="10"></line>
                     <line x1="21" y1="6" x2="3" y2="6"></line>
@@ -66,7 +66,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2 me-2"
                     />
-                   <span className="sectuin3allcatogtext "> Vegetables & Fruit</span> 
+                   <span className="sectuin3allcatogtext"> Vegetables & Fruit</span> 
                   </Dropdown.Item>
                   <Dropdown.Item href="/">
                     <img
@@ -74,7 +74,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2"
                     />
-                      <span className="sectuin3allcatogtext ">Beverages</span>  
+                      <span className="sectuin3allcatogtext">Beverages</span>  
                    
                   </Dropdown.Item>
                   <Dropdown.Item href="/">
@@ -83,7 +83,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2"
                     />
-                      <span className="sectuin3allcatogtext ">Meats &amp; Seafood</span>  
+                      <span className="sectuin3allcatogtext">Meats &amp; Seafood</span>  
                    
                   </Dropdown.Item>
                                   </Dropdown.Menu>
@@ -91,16 +91,16 @@ function Section3() {
             </Col>
                     {/* the 2nd  column is a NavBar */}
 
-            <Col xl={8} md={7} className="d-none d-xl-block ">
+            <Col xl={8} md={7} className="d-none d-xl-block">
               {/* Start of NavBar */}
               <Navbar >
                 <Navbar.Toggle  />
                 <Navbar.Collapse
                   id="responsive-navbar-nav"
-                  className="  gap-3 align-items-center  justify-content-center navsection3"
+                  className="gap-3 align-items-center justify-content-center navsection3"
                 >
                   {/* the navbar column has a row that has 5 columns */}
-                  <Row className="align-items-center justify-content-between ">
+                  <Row className="align-items-center justify-content-between">
                     {/* the first column has a NavDropdown  */}
                     <Col xl={2}>
                       <NavDropdown id="nav-dropdown-dark-example" title="Home" >
@@ -117,7 +117,7 @@ function Section3() {
                                     alt="logo"
                                     className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light ">
+                                  <span className="text-dania fw-light">
                                     KartShop
                                   </span>
                                 </a>
@@ -129,7 +129,7 @@ function Section3() {
                                     alt="logo"
                                     className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light ">
+                                  <span className="text-dania fw-light">
                                     SweetShop
                                   </span>
                                 </a>
@@ -141,7 +141,7 @@ function Section3() {
                                     alt="logo"
                                     className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light ">
+                                  <span className="text-dania fw-light">
                                     Organic
                                   </span>
                                 </a>
@@ -153,7 +153,7 @@ function Section3() {
                                     alt="logo"
                                     className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light ">
+                                  <span className="text-dania fw-light">
                                     SuperShop
                                   </span>
                                 </a>
@@ -165,7 +165,7 @@ function Section3() {
                                     alt="logo"
                                     className="imgg  imghovering"
                                   /> 
-                                  <span className="text-dania fw-light ">
+                                  <span className="text-dania fw-light">
                                     Slicktech
                                   </span>
                                 </a>
@@ -421,7 +421,7 @@ function Section3() {
                     </Col>
                    {/* the 5th column has a row & 3columns  */}
                     <Col>
-                      <Row className="align-items-center justify-content-between ">
+                      <Row className="align-items-center justify-content-between">
                         {/* column that has a NavDropdown */}
                         <Col xl={4}>
                           <NavDropdown
@@ -512,11 +512,11 @@ function Section3() {
             </Col>
         {/* the 3rd column contains a Deal Today Button (when you click on it , a Deal Today modal will appear) from bootstrap  */}
         <Col xl={2} md={2}>
-              <div className=" d-flex justify-content-end">
+              <div className="d-flex justify-content-end">
                 {/* Button  */}
                 <Button
                   onClick={handleShow}
-                  className=" m-0 p-0 DealTodaybutton text-center px-1  "
+                  className="m-0 p-0 DealTodaybutton text-center px-1"
                 >
                   <div className="d-flex justify-content-center align-items-center p-2">
                     {/* Deal Today icon */}
@@ -531,13 +531,13 @@ function Section3() {
                         stroke-width="2"
                         stroke-linecap="round"
                         strokeLinejoin="round"
-                        className="DealTodayIcon mx-1 "
+                        className="DealTodayIcon mx-1"
                       >
                         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                       </svg>
                     </div>
                     <div className="px-1">
-                      <span className="d-none d-xl-block ">
+                      <span className="d-none d-xl-block">
                         Deal Today
                       </span>
                     </div>
@@ -559,16 +559,16 @@ function Section3() {
                 {/* Modal Body that has a list with 2 items (2 li elemnts) */}
                 <Modal.Body className="modalbody">
                   <div>
-                    <ul className="  list-unstyled ">
-                      <li className="mb-2 ">
-                        <div className=" rounded-3 border border-white bg-gg d-flex  align-items-center  justify-content-center  ">
+                    <ul className="list-unstyled">
+                      <li className="mb-2">
+                        <div className="rounded-3 border border-white bg-gg d-flex align-items-center justify-content-center">
                           <img
                             src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/10.png"
-                            className="w-25 p-3 me-2 ms-2 "
+                            className="w-25 p-3 me-2 ms-2"
                             alt=""
                           />
 
-                          <a href="/" className="text-decoration-none ">
+                          <a href="/" className="text-decoration-none">
                             <h5 className="text-dania">
                               Blended Instant Coffee 50 g Buy 1 Get 1 Free
                             </h5>
@@ -580,14 +580,14 @@ function Section3() {
                         </div>
                       </li>
                       <li >
-                        <div className=" rounded-3 border border-white bg-pink d-flex gap-1 align-items-center  justify-content-center  ">
+                        <div className="rounded-3 border border-white bg-pink d-flex gap-1 align-items-center justify-content-center">
                           <img
                             src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png"
                             className="w-25 mt-5 me-2 ms-2 p-3"
                             alt=""
                           />
 
-                          <a href="/" className="text-decoration-none ">
+                          <a href="/" className="text-decoration-none">
                             <h5 className="text-dania">
                               Blended Instant Coffee 50 g Buy 1 Get 1 Free
                             </h5>

@@ -16,7 +16,7 @@ export default function Rating() {
                           {/* the first col contain 5 stars icons (svg) */}
                           <Col xxl={6}   md={6} xs={12} className="p-0">
                 
-    <ul className="rating ">
+    <ul className="rating">
     <li>
       <svg
         xmlns="http://www.w3.org/2000/svg"

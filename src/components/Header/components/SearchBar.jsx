@@ -18,7 +18,7 @@ function SearchBar() {
         {/* when you click on search svg(icon) , the modal will appear */}
       <Button onClick={handleShow}  variant="badge" className="p-0 m-0">
         {/* search svg (icon): */}
-        <span className=" pg-gg ">
+        <span className="pg-gg">
    
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function SearchBar() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <div className="text-white  text-overflow-1 ">
+        <div className="text-white text-overflow-1">
                     <InputGroup>
                       <Form.Control
                         placeholder="I'm searching for...."

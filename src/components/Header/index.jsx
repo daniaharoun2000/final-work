@@ -4,22 +4,21 @@ import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import "./Header.scss"
-import classes from'./Header.module.css'; 
 
 //// start of Header function ///
 
 function Header() {
   return (
-    <header className={classes.header } id="main-header">
-      <section >
+    <header id="main-header">
+      <section className="header">
         {/* Top Header */}
         <Section1 /> 
       </section>
-      <section>
+      <section className="header">
         {/*Sticky Header  */}
         <Section2 />
       </section>
-      <section>
+      <section className="header">
         {/* NavBar */}
         <Section3 />
         </section>

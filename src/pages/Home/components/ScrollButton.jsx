@@ -13,7 +13,7 @@ export default function ScrollButton() {
 
   return (
     <div>
-      <button className='bg-primary  scroolbutton'
+      <button className='bg-primary scroolbutton'
         onClick={() => {
           //  scroll to top on page load
     //horizontally =0 ,vertically=0 ,behavior=smooth
@@ -34,7 +34,7 @@ export default function ScrollButton() {
         {/* img on the button (top arrow icon) */}
        <img
                     src={svgg}
-                    className=" iconn  align-items-center "
+                    className="iconn align-items-center"
                     alt="img"
                   />
       </button>

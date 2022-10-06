@@ -6,15 +6,15 @@ import Container from "../../../../components/Container";//my Container
 ////start of Section1 function///
 function Section1() {
   return (
-    <div className=" align-items-center   ">
+    <div className="align-items-center">
       <Container>
         <div className="pt-1">
                     {/* here we have row with 2 columns */}
         <Row>
           {/* the first col has an img with text */}
           <Col xl={8} md={12} lg={12}>
-            <div className=" position-relative   imgonesectionone mt-4 gfg">
-              <div className="textforimage2 position-absolute  ">
+            <div className="position-relative imgonesectionone mt-4 gfg">
+              <div className="textforimage2 position-absolute">
                 <div className="textforimage">
                   <h6>
                     Exclusive offer
@@ -30,7 +30,7 @@ function Section1() {
                   </p>
                   <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
+                    className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 
                   </button>
@@ -44,23 +44,23 @@ function Section1() {
             {/* in this col there is a row with 2 cols , in each column there is an img with text */}
             <Row>
               <Col xl={12} md={6} lg={6}>
-                <div className=" position-relative mt-4">
+                <div className="position-relative mt-4">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
-                    className=" rounded border-light imgtwosectionone w-100" alt="img"
+                    className="rounded border-light imgtwosectionone w-100" alt="img"
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h2 className="mt-4 text-dd ">
-                        45% <span className=" text-dania">OFF</span>
+                      <h2 className="mt-4 text-dd">
+                        45% <span className="text-dania">OFF</span>
                       </h2>
                       <h3 className="text-primary">Nut Collection</h3>
-                      <p className=" text-aa psection1">
+                      <p className="text-aa psection1">
                         We deliver organic vegetables &amp; fruits
                       </p>
                       <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
+                    className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 
                   </button>
@@ -69,10 +69,10 @@ function Section1() {
                 </div>
               </Col>
               <Col xl={12} md={6} lg={6}>
-                <div className=" position-relative mt-4">
+                <div className="position-relative mt-4">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/3.jpg"
-                    className=" rounded border-light imgtwosectionone w-100"
+                    className="rounded border-light imgtwosectionone w-100"
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
@@ -80,12 +80,12 @@ function Section1() {
                         Healthy Food
                       </h3>
                       <h4 className="text-dd">Organic Market</h4>
-                      <p className=" text-aa psection1">
+                      <p className="text-aa psection1">
                         Start your daily shopping with some Organic food
                       </p>
                       <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
+                    className="btn mt-xxl-4 mt-2 text-overflow-1 bg-dd text-white"
                   >
                     Shop Now 
                   </button>

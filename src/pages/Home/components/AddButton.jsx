@@ -20,13 +20,13 @@ function AddButton() {
                           {/* the 2nd col has a div that contain (+) icon  */}
 
          <Col xl={6} xs={6}>
-           <div className="d-flex justify-content-end align-items-end ">
+           <div className="d-flex justify-content-end align-items-end">
              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bg-badge text-primary   plusbutton"
+                className="bg-badge text-primary plusbutton"
                 viewBox="0 0 16 16"
               >
                 <path

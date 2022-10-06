@@ -15,7 +15,7 @@ export default function FoodCupboardSlider() {
       <div>
         <div>
           <Container>
-            <div className=" py-4">
+            <div className="py-4">
                                         {/* there is one row with one col */}
 
               <Row>
@@ -29,7 +29,7 @@ export default function FoodCupboardSlider() {
                       <span className="title-leaf">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                          className=" icon-width" alt="foodcupboard"
+                          className="icon-width" alt="foodcupboard"
                         />
                       </span>
                       <p>
@@ -81,10 +81,10 @@ export default function FoodCupboardSlider() {
                                              {/* in every  swiper slide there is an img with text*/}
    
                     <SwiperSlide>
-                    <div className="p-3 border  cardhovering">
+                    <div className="p-3 border cardhovering">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
-                                className="w-100 margintoptodayimage imghovering  "
+                                className="w-100 margintoptodayimage imghovering"
                                 alt=""
                               />
 
@@ -108,10 +108,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border cardhovering ">
+                    <div className="p-3 border cardhovering">
                               <img
                               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/3.png"
-                                className="w-100 margintoptodayimage imghovering  "
+                                className="w-100 margintoptodayimage imghovering"
                                 alt=""
                               />
 
@@ -135,11 +135,11 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border cardhovering ">
+                    <div className="p-3 border cardhovering">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/5.png
                                 "
-                                className="w-100 margintoptodayimage imghovering  "
+                                className="w-100 margintoptodayimage imghovering"
                                 alt=""
                               />
 
@@ -164,10 +164,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border cardhovering ">
+                    <div className="p-3 border cardhovering">
                               <img
                                 src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/6.png"
-                                className="w-100 margintoptodayimage imghovering  "
+                                className="w-100 margintoptodayimage imghovering"
                                 alt=""
                               />
 
@@ -191,10 +191,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border cardhovering ">
+                    <div className="p-3 border cardhovering">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/4.png"
-                                className="w-100 margintoptodayimage imghovering  "
+                                className="w-100 margintoptodayimage imghovering"
                                 alt=""
                               />
 

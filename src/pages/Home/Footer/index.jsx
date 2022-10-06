@@ -8,7 +8,7 @@ import "./Footer.scss"
 
 function Footer() {
   return (
-    <div className="footercover bg-cat mb-5 mb-md-0 ">
+    <div className="footercover bg-cat mb-5 mb-md-0">
       <section >
               {/* Section 1 section */}
         <Section1 />

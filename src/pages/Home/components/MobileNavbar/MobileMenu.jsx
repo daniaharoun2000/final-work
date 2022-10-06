@@ -12,14 +12,14 @@ import search from '../../images/search.png';
 function MobileMenu() {
   return (
 // this section will appear in md & sm & xs
-    <div className="mobile-menu bg-primary d-lg-none d-block ">
+    <div className="mobile-menu bg-primary d-lg-none d-block">
       <Container>
                 {/* here we have a Row with one column */}
 
         <Row>
           <Col xl={12}>
             <div className="w-100">
-              <div className=" mobile-cart w-100">
+              <div className="mobile-cart w-100">
                 {/* here we have ul (list) with li elements , in each element there is an icon with text */}
                 <ul className="m-0 d-flex">
                   {/* here we make Home element active by styling it by active class name */}

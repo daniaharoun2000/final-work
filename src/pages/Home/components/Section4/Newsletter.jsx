@@ -12,8 +12,8 @@ function Newsletter() {
     <Row>
       {/* this Col has background image with some texts */}
       <Col xl={12}>
-                        <div className=" newsletterbg position-relative d-flex justify-content-center align-items-center" >
-                            <div className="     textforimage2 mt-1 align-items-center justify-content-center d-flex">
+                        <div className="newsletterbg position-relative d-flex justify-content-center align-items-center" >
+                            <div className="textforimage2 mt-1 align-items-center justify-content-center d-flex">
                                 <div >
                                 <h2 className="text-badge textsizenewsletter">
                       Join our newsletter and get...
@@ -30,7 +30,7 @@ function Newsletter() {
                       />
                       <button
                         onClick="location.href = 'shop-left-sidebar.html';"
-                        className="btn mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 bg-dd text-white "
+                        className="btn mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 bg-dd text-white"
                       >
                       Subscribe
                       </button>

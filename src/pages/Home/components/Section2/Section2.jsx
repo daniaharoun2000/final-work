@@ -12,7 +12,7 @@ function Section2() {
              {/* here we have row with 4 columns m each col has an img with text */}
             <Row className="g-sm-4 g-3">
               <Col xxl={3} lg={4} sm={6} className="firstcol">
-                <div className="banner-contain  divsection2 ">
+                <div className="banner-contain divsection2">
                   <img
                     src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/4.jpg"
                     alt=""
@@ -36,7 +36,7 @@ function Section2() {
                 </div>
               </Col>
               <Col xxl={3} lg={4} sm={6}>
-                <div className="banner-contain  divsection2">
+                <div className="banner-contain divsection2">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/5.jpg"
                     alt=""
@@ -58,7 +58,7 @@ function Section2() {
                 </div>
               </Col>
               <Col xxl={3} lg={4} sm={6}>
-                <div className="banner-contain  divsection2">
+                <div className="banner-contain divsection2">
                   <img
                     src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/6.jpg"
                     alt=""
@@ -80,7 +80,7 @@ function Section2() {
                 </div>
               </Col>
               <Col xxl={3} lg={4} sm={6}>
-                <div className="banner-contain  divsection2">
+                <div className="banner-contain divsection2">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/7.jpg"
                     alt=""

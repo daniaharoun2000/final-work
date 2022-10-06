@@ -17,38 +17,38 @@ function OffcanvasNavbar() {
     <>
             {/* when you click on lines img(icon) , the Offcanvas nav will appear */}
 
-      <Button variant="badge" onClick={handleShow} className=" d-xl-none d-inline">
+      <Button variant="badge" onClick={handleShow} className="d-xl-none d-inline">
         <img src={lines}  alt="logo"
               width={15}
              />
       </Button>
 {/* start of Offcanvas */}
 
-      <Offcanvas show={show} onHide={handleClose} className=" p-3 w-50">
+      <Offcanvas show={show} onHide={handleClose} className="p-3 w-50">
         <Offcanvas.Header closeButton className='shadow-sm zindex-fixed-nav'>
-          <Offcanvas.Title><h5 className='text-primary '>Menu</h5></Offcanvas.Title>
+          <Offcanvas.Title><h5 className='text-primary'>Menu</h5></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
      {/* in the Offcanvas body , we have list and every li element is a nav item */}
-        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-           <li className="nav-item ">
+           <li className="nav-item">
             <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Home
             </a>   </li> 
-         <li className="nav-item ">
-            <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+         <li className="nav-item">
+            <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Shop
-            </a>   </li>   <li className="nav-item ">
-            <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </a>   </li>   <li className="nav-item">
+            <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Product
-            </a>   </li>      <li className="nav-item ">
-             <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </a>   </li>      <li className="nav-item">
+             <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Blog
             </a>   
-            </li>       <li className="nav-item "><a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </li>       <li className="nav-item"><a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Pages
-            </a>   </li>      <li className="nav-item "> <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </a>   </li>      <li className="nav-item"> <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Contact
             </a>   </li> 
          

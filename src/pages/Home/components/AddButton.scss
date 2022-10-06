@@ -1,20 +1,45 @@
-#main-home 
-{    
-.buttonclass{
+// .myBtn {
+//   border: 0;
+//   box-shadow: none;
+//   &-red {
+//     background-color: #ff0000;
+//     &:hover {
+//       background-color: #ff0059;
+//     }
+//   }
 
+//   &-blue {
+//     background-color: blue;
+//     &:hover {
+//       background-color: lightblue;
+//     }
+//   }
+// }
+
+// className="myBtn myBtn-red"
+//  $ npm i classnames
+// import classNames from "classnames"
+// My Button Component
+// <button onClick={onClick} className={classNames("myBtn", {
+// [`myBtn-${color}`]: color
+// })}>{children}</button>
+
+// <MyButton color="red">Ahmad</MyButton>
+
+#main-home {
+  .buttonclass {
     width: 100%;
-   
+
     color: #4a5568;
     border-radius: 50px;
-  border: none;
-  font-size: 17px;
-  font-weight: 500;
-
-}
-.plusbutton{
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .plusbutton {
     width: 20px;
     height: 20px;
     border: none;
     border-radius: 50px;
-}
+  }
 }

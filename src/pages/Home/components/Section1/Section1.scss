@@ -1,20 +1,20 @@
 #main-home {
   // here is multi font size for multi screen sizes
   @media (min-width: 1000px) {
-  .homecontain {
-    font-size: 46px;
-    width: 80%;
-    line-height: 1.4;
-    text-transform: uppercase !important;
-  }
+    .homecontain {
+      font-size: 46px;
+      width: 80%;
+      line-height: 1.4;
+      text-transform: uppercase !important;
+    }
   }
   @media (max-width: 1000px) {
-  .homecontain {
-    font-size: 27px;
-    width: 80%;
-    line-height: 1.4;
-    text-transform: uppercase !important;
-  }
+    .homecontain {
+      font-size: 27px;
+      width: 80%;
+      line-height: 1.4;
+      text-transform: uppercase !important;
+    }
   }
   @media (max-width: 330px) {
     .homecontain {
@@ -23,8 +23,7 @@
       line-height: 1.4;
       text-transform: uppercase !important;
     }
-    }
-
+  }
 
   .imgonesectionone {
     height: 689px;
@@ -38,7 +37,30 @@
     border-bottom-left-radius: 5px;
     overflow: hidden;
   }
-    // here is multi width & height for multi screen sizes
+  // here is multi width & height for multi screen sizes
+
+  // height: 280px; // xs
+
+  // @media (min-width: 576px) {
+  //   // sm & up
+  //   height: 300px;
+  // }
+
+  // @media (min-width: 768px) {
+  //   // md & up
+  //   height: 350px;
+  // }
+
+  // @media (min-width: 992px) { 
+  //   // lg-xl 992-1399
+  //   height: 400px;
+  // }
+
+  // @media (min-width: 1400px) {
+  //   // xxl - unlimited 1400-unlimited
+  //   height: 400px;
+  // }
+
 
   @media (max-width: 1000px) {
     .gfg {
@@ -72,11 +94,11 @@
       -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
       flex: 0 0 auto;
-      width:514px;
+      width: 514px;
       height: 419px;
     }
   }
-   @media (max-width: 700px) {
+  @media (max-width: 700px) {
     .gfg {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -140,7 +162,6 @@
     }
   }
 
-
   .imgtwosectionone {
     width: 511.66px;
     height: 332.56px;
@@ -149,7 +170,7 @@
   .section130percent {
     font-weight: 500;
     padding: 12.6px;
-    
+
     background: -webkit-gradient(
       linear,
       left top,
@@ -164,18 +185,16 @@
     );
     border-radius: 50px;
     color: #ff4f4f;
-   
   }
- 
+
   .textforimage2 {
     padding: calc(
       15px + (20 - 15) * ((100vw - 320px) / (1920 - 320))
     ) !important;
-height: 100%;
+    height: 100%;
     top: 0;
     left: 0;
 
-  
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -198,7 +217,7 @@ height: 100%;
       width: 75% !important;
     }
   }
-  button:hover  {
-  transform: scale(0.9); 
-}
+  button:hover {
+    transform: scale(0.9);
+  }
 }

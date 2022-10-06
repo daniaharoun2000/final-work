@@ -11,25 +11,25 @@ function Section1() {
       <div>
         <Container >
           {/* this section will appear only on md &lg & xl & xxl  */}
-          <div className=" d-none d-sm-none d-md-block mt-5  ">
+          <div className="d-none d-sm-none d-md-block mt-5">
             {/* this section is devide into 2 divs , one of them will appear according to display size */}
             {/* the first div will appear in xxl only */}
-          <div className=" d-xxl-block d-none py-4">
+          <div className="d-xxl-block d-none py-4">
           <div className="service-contain">   
               <div >    
                 {/* here we have a row with 4 columns and in each column we have an img with text */}
-                       <Row className="lineundersection py-4 ">
+                       <Row className="lineundersection py-4">
                 <Col xxl={3} xl={3}>
-                  <div className=" align-items-center d-flex me-0">
+                  <div className="align-items-center d-flex me-0">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/product.svg"
-                        className="blur-up lazyloaded "
+                        className="blur-up lazyloaded"
                         alt=""
                       />
                     </div>
 
-                     <div className="service-detail  mx-2">
+                     <div className="service-detail mx-2">
 
                       <span>Every Fresh Products</span>
                       
@@ -87,7 +87,7 @@ function Section1() {
             </div>
           </div>
             {/* the 2nd div will appear in xl & lg only */}
-          <div className="  d-lg-block d-xl-block d-xxl-none py-4 ">
+          <div className="d-lg-block d-xl-block d-xxl-none py-4">
           
               <div  > 
    {/* here we have 2 rows with 2 columns in each of them  and in each column we have an img with text */}
@@ -95,7 +95,7 @@ function Section1() {
                  <Row >   
                 <Col xl={6} lg={6} md={6}>
                   <div >
-                    <div className="d-flex justify-content-start align-items-center ">
+                    <div className="d-flex justify-content-start align-items-center">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/product.svg"
@@ -104,7 +104,7 @@ function Section1() {
                       />
                     </div>
 
-                     <div className="service-detail mx-2 ">
+                     <div className="service-detail mx-2">
 
                       <span>Every Fresh Products</span>
                     </div>
@@ -112,7 +112,7 @@ function Section1() {
                 </Col>
                 <Col xl={6} lg={6} md={6}>
                   <div >
-                      <div className="d-flex justify-content-strat align-items-center ">
+                      <div className="d-flex justify-content-strat align-items-center">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/delivery.svg"
@@ -127,10 +127,10 @@ function Section1() {
                     </div></div>
                   </div>
                 </Col> </Row>
-                <Row className="lineundersection py-4 ">
+                <Row className="lineundersection py-4">
                 <Col  xl={6} lg={6} md={6}>
                   <div >  
-                  <div className="d-flex justify-content-start align-items-center ">
+                  <div className="d-flex justify-content-start align-items-center">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/discount.svg"
@@ -148,7 +148,7 @@ function Section1() {
                 </Col>
                 <Col  xl={6} lg={6} md={6}>
                   <div className="service-box justify-content-start d-flex">  
-                  <div className="d-flex justify-content-center align-items-center ">
+                  <div className="d-flex justify-content-center align-items-center">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/market.svg"

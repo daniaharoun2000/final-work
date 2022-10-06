@@ -34,17 +34,17 @@ function Section2() {
     <div
       className={
         fix
-          ? "bg-white  position-fixed top top-0  shadow-sm w-100 fixed-nav"   //if fix=true this style will run
-          : "bg-white "     //if fix=flase this style will run
+          ? "bg-white position-fixed top top-0 shadow-sm w-100 fixed-nav"   //if fix=true this style will run
+          : "bg-white"     //if fix=flase this style will run
       }
     >
       <div>
         <Container>
-          <Row className="align-items-center  gx-2  py-2">
+          <Row className="align-items-center gx-2 py-2">
             {/* The sticky header is divided into three columns */}
         {/* the first column contains a row that has 4 columns  */}
             <Col xl={2} md={4} xs={12}>
-              <Row className="align-items-center justify-content-between gx-2 ">
+              <Row className="align-items-center justify-content-between gx-2">
                 {/* row that has 4 columns */}
                 {/* the first column is OffcanvasNavbar that will not appear in xl & xxl  */}
                 <Col md={2} xs={2} className="d-xl-none">
@@ -60,7 +60,7 @@ function Section2() {
                   />
                 </Col>
                    {/* the 3rd column -> LocationBar component  */}
-                <Col md={3} xs={2} className="d-xl-none d-md-block d-none ">
+                <Col md={3} xs={2} className="d-xl-none d-md-block d-none">
                   <LocationBar />
                 </Col>
      {/* the 4th column -> user icon  that will appear in mobile display sizes  */}
@@ -88,14 +88,14 @@ function Section2() {
             </Col>
         {/* the 2nd column contains a row that has 2 columns that runs in xl &xxl */}
             <Col xl={7} xs={0} className="d-none d-xl-block">
-              <Row className="align-items-center gx-2 ">
+              <Row className="align-items-center gx-2">
                         {/* the first column contain LocationBar component */}
                 <Col xl={4} xs={8}>
                   <LocationBar />
                 </Col>
                                         {/* the 2nd column contain Search box input & it will run in xl & xxl only*/}
                 <Col xl={8} lg={0} className="d-none d-xl-block">
-                  <div className="text-white  text-overflow-1 d-sm-none d-md-block">
+                  <div className="text-white text-overflow-1 d-sm-none d-md-block">
                     {/* here I used InputGroup from bootstrap to run the searchbox */}
                     <InputGroup>
                       <Form.Control
@@ -130,7 +130,7 @@ function Section2() {
             <Col xl={3} xs={8} className="d-none d-md-block">
               <Row>
                 {/* list and in each li element we have an icon and in each column we have an li elemnt that has an icon */}
-                <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
+                <ul className="unstiled-list p-0 d-flex align-items-center justify-content-end w-100">
                   {/* this column has a li element that has a search icon that appear in specific display size , here I put it in another component (SearchBar) and called it here */}
                   <Col xxl={1}xl={1}>
                     <li className="m-0 d-xl-none d-block">
@@ -143,8 +143,8 @@ function Section2() {
                   </li>
    {/* this column has a li element that has a phone icon */}
                   <Col xxl={2} xl={2}>
-                    <li className="m-0 phoneli ">
-                      <div className="d-flex align-items-center justify-content-center gap-2 ">
+                    <li className="m-0 phoneli">
+                      <div className="d-flex align-items-center justify-content-center gap-2">
                         <div><a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -225,8 +225,8 @@ function Section2() {
                      {/* this column has a li element that has a user icon */}
 
                   <Col xxl={2} xl={2}>
-                    <li className="m-0 ">
-                      <div className="d-flex align-items-center justify-content-center gap-1 ">
+                    <li className="m-0">
+                      <div className="d-flex align-items-center justify-content-center gap-1">
                         <div><a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

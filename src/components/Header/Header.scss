@@ -206,5 +206,31 @@
     transition: all 0.3s ease-in-out;
     z-index: -1;
 }
-   
+   //////////////////////////All Sections/////////////////////////////
+
+.header ul {
+  list-style: none;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header button {
+  font: inherit;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+
+
 }

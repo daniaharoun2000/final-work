@@ -15,7 +15,7 @@ export default function OurBestSellerSlider() {
       <div>
         <div>
           <Container>
-            <div className=" py-4">
+            <div className="py-4">
                {/* there is one row with one col */}
               <Row>
                 <Col xl={12}>
@@ -27,7 +27,7 @@ export default function OurBestSellerSlider() {
                       <span className="title-leaf">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                          className=" icon-width" alt="ourbest seller"
+                          className="icon-width" alt="ourbest seller"
                         />
                       </span>
                       <p>
@@ -37,7 +37,7 @@ export default function OurBestSellerSlider() {
                   </div>
                   {/* here we have 2 divs , one of them will appear according to display size */}
                   {/* first div will appear in xl & md & xs only*/}
-                  <div className=" d-lg-none d-xxl-none d-xl-block d-md-block d-xs-block">
+                  <div className="d-lg-none d-xxl-none d-xl-block d-md-block d-xs-block">
                     {/* swiper */}
                     <Swiper
                     
@@ -69,9 +69,9 @@ export default function OurBestSellerSlider() {
       {/* in every  swiper slide there is an img with text*/}
 
                       <SwiperSlide>
-                        <div className="slick-slide slick-current slick-active ">
-                          <ul className="product-list  p-3 border rounded-3">
-                            <li  className=" mb-4  mt-2">
+                        <div className="slick-slide slick-current slick-active">
+                          <ul className="product-list p-3 border rounded-3">
+                            <li  className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -97,7 +97,7 @@ export default function OurBestSellerSlider() {
                                       </span>
                                     </a>
                                     <span >500 G</span><br/>
-                                    <span className="price text-primary mb-4 ">
+                                    <span className="price text-primary mb-4">
                                       $ 10.00
                                     </span>
                                   </div>
@@ -105,7 +105,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li className=" mb-4  mt-2">
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -137,7 +137,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li className=" mb-4  mt-2">
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -207,13 +207,13 @@ export default function OurBestSellerSlider() {
                       </SwiperSlide>
                       <SwiperSlide>
                         <div
-                          className="slick-slide slick-active "
+                          className="slick-slide slick-active"
                           tabindex="0"
                           data-slick-index="1"
                           aria-hidden="false"
                         >
-                          <ul className="product-list  p-3 border rounded-3 cheeza">
-                            <li  className=" mb-4  mt-2">
+                          <ul className="product-list p-3 border rounded-3 cheeza">
+                            <li  className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -281,7 +281,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li className=" mb-4  mt-2">
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -351,13 +351,13 @@ export default function OurBestSellerSlider() {
                       </SwiperSlide>
                       <SwiperSlide>
                         <div
-                          className="slick-slide slick-active  "
+                          className="slick-slide slick-active"
                           tabindex="0"
                           data-slick-index="2"
                           aria-hidden="false"
                         >
-                          <ul className="product-list  p-3 border rounded-3 ">
-                            <li  className=" mb-4  mt-2">
+                          <ul className="product-list p-3 border rounded-3">
+                            <li  className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -391,7 +391,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li className=" mb-4  mt-2">
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -426,7 +426,7 @@ export default function OurBestSellerSlider() {
                               </div>
                             </li>
 
-                            <li className=" mb-4 mt-2 ">
+                            <li className="mb-4 mt-2">
                               <div className="offer-product">
                                 <a
                                   href="/"
@@ -508,20 +508,20 @@ export default function OurBestSellerSlider() {
                   </div>
 
                   {/* 2nd div will appear in xxl & lg only */}
-                  <div className="d-none  d-xxl-block d-xl-none d-lg-block d-md-none ">
-                    <div className="best-selling-slider product-wrapper wow fadeInUp slick-initialized slick-slider ">
-                      <div className="slick-list draggable  ">
+                  <div className="d-none d-xxl-block d-xl-none d-lg-block d-md-none">
+                    <div className="best-selling-slider product-wrapper wow fadeInUp slick-initialized slick-slider">
+                      <div className="slick-list draggable">
                         <div className="slick-track">
                            {/* react gutters from bootstrap */}
 {/* in xxl -> show 3 cols  , in xl -> show 2 cols ,in lg -> show 3 cols , in md -> show 2 cols ,in sm -> show 1 cols ,  in xs -> show 1 cols*/}
      
-                          <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1  ">
+                          <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
                             {/* here there is 3 cols */}
                             <Col>
                             {/* in every col there is ul and li elemnts */}
-                              <ul className="product-list  p-3 border rounded-3  ">
+                              <ul className="product-list p-3 border rounded-3">
                                 {/* in every li elemnt there is an img & text */}
-                                <li className=" mb-4  mt-2">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -547,7 +547,7 @@ export default function OurBestSellerSlider() {
                                           </span><br/>
                                         </a>
                                         <span className="mt-1">500 G</span><br/>
-                                        <span className="price text-primary mb-4 ">
+                                        <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
                                       </div>
@@ -555,7 +555,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4  mt-2">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -587,7 +587,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -662,7 +662,7 @@ export default function OurBestSellerSlider() {
                               <ul className="product-list  p-3 border rounded-3">
                                                                 {/* in every li elemnt there is an img & text */}
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -696,7 +696,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -730,7 +730,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -802,10 +802,10 @@ export default function OurBestSellerSlider() {
                             <Col>
                                                         {/* in every col there is ul and li elemnts */}
 
-                              <ul className="product-list  p-3 border rounded-3">
+                              <ul className="product-list p-3 border rounded-3">
                                                                 {/* in every li elemnt there is an img & text */}
 
-                                <li className=" mb-4  mt-2">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -839,7 +839,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
@@ -874,7 +874,7 @@ export default function OurBestSellerSlider() {
                                   </div>
                                 </li>
 
-                                <li className=" mb-4 mt-2 ">
+                                <li className="mb-4 mt-2">
                                   <div className="offer-product">
                                     <a
                                       href="/"
